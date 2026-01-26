@@ -2,8 +2,8 @@ import { Button } from '@/components/ui/button'
 import { Rocket, Star, Sparkles, ArrowRight } from 'lucide-react'
 
 export const Hero = () => {
-  const scrollToPricing = () => {
-    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })
+  const handlePurchase = () => {
+    window.location.href = 'https://pay.hotmart.com/E103583426A'
   }
 
   return (
@@ -54,11 +54,11 @@ export const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4 animate-fade-in-up delay-200">
             <Button
-              onClick={scrollToPricing}
+              onClick={handlePurchase}
               size="lg"
               className="rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base px-8 py-6 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0"
             >
-              Quero transformar o tempo de tela
+              Quero garantir por R$ 27
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </div>

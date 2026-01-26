@@ -24198,8 +24198,8 @@ var Button = import_react.forwardRef(({ className, variant, size: size$3, asChil
 });
 Button.displayName = "Button";
 const Hero = () => {
-	const scrollToPricing = () => {
-		document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
+	const handlePurchase = () => {
+		window.location.href = "https://pay.hotmart.com/E103583426A";
 	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 		id: "hero",
@@ -24253,10 +24253,10 @@ const Hero = () => {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4 animate-fade-in-up delay-200",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
-							onClick: scrollToPricing,
+							onClick: handlePurchase,
 							size: "lg",
 							className: "rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base px-8 py-6 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0",
-							children: ["Quero transformar o tempo de tela", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-5 h-5 ml-2" })]
+							children: ["Quero garantir por R$ 27", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-5 h-5 ml-2" })]
 						})
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -27038,6 +27038,23 @@ const Testimonials = () => {
 		})
 	});
 };
+const PurchaseSection = () => {
+	const handlePurchase = () => {
+		window.location.href = "https://pay.hotmart.com/E103583426A";
+	};
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		className: "py-12 bg-white border-y border-slate-100",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "container mx-auto px-4 text-center",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+				onClick: handlePurchase,
+				size: "lg",
+				className: "w-full sm:w-auto h-16 text-lg md:text-xl font-bold uppercase bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 shadow-xl shadow-green-500/30 rounded-xl animate-pulse px-8 md:px-12",
+				children: ["Quero garantir por R$ 27", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-6 h-6 ml-2" })]
+			})
+		})
+	});
+};
 var Index = () => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "overflow-x-hidden",
@@ -27045,14 +27062,18 @@ var Index = () => {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Hero, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Problem, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Future, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PurchaseSection, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Solution, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Modules, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Benefits, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Bonuses, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PurchaseSection, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Author, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PurchaseSection, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FAQ, {}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Testimonials, {})
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Testimonials, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PurchaseSection, {})
 		]
 	});
 };
@@ -27097,7 +27118,12 @@ var TermsOfUse = () => {
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "prose prose-slate max-w-none text-slate-600 space-y-6",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Ao acessar este site, você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+					"Ao acessar este site, de propriedade e operado por",
+					" ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "Junior Cristiano Alberti" }),
+					", você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis."
+				] }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: "text-xl font-bold text-brand-dark",
 					children: "1. Licença de Uso"
@@ -27144,7 +27170,7 @@ var TermsOfUse = () => {
 					className: "text-xl font-bold text-brand-dark",
 					children: "Lei aplicável"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Estes termos e condições são regidos e interpretados de acordo com as leis do IA Criativa para Crianças e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade." })
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Estes termos e condições são regidos e interpretados de acordo com as leis do Brasil e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade." })
 			]
 		})]
 	});
@@ -28729,19 +28755,19 @@ const StickyCTA = () => {
 		return () => window.removeEventListener("scroll", handleScroll$1);
 	}, []);
 	const handleClick = () => {
-		document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
+		window.location.href = "https://pay.hotmart.com/E103583426A";
 		toast$2({
 			title: "Ótima escolha!",
-			description: "Aproveite o preço promocional."
+			description: "Você será redirecionado para o pagamento seguro."
 		});
 	};
 	if (!isVisible) return null;
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: cn("fixed bottom-4 left-4 right-4 z-50 md:hidden transition-all duration-500 transform", isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"),
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
 			onClick: handleClick,
-			className: "w-full rounded-full bg-gradient-to-r from-brand-orange to-brand-orangeDark text-white font-bold uppercase shadow-2xl py-6 text-lg border-2 border-white/20",
-			children: "Garanta sua vaga"
+			className: "w-full rounded-full bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold uppercase shadow-2xl py-6 text-lg border-2 border-white/20",
+			children: ["Quero garantir por R$ 27", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-5 h-5 ml-2" })]
 		})
 	});
 };
@@ -28796,4 +28822,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-C-pdyDp5.js.map
+//# sourceMappingURL=index-B0IFqBFn.js.map

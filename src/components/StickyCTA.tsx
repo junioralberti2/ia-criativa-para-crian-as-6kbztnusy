@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { useToast } from '@/hooks/use-toast'
+import { ArrowRight } from 'lucide-react'
 
 export const StickyCTA = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -19,10 +20,10 @@ export const StickyCTA = () => {
   }, [])
 
   const handleClick = () => {
-    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })
+    window.location.href = 'https://pay.hotmart.com/E103583426A'
     toast({
       title: 'Ótima escolha!',
-      description: 'Aproveite o preço promocional.',
+      description: 'Você será redirecionado para o pagamento seguro.',
     })
   }
 
@@ -37,9 +38,10 @@ export const StickyCTA = () => {
     >
       <Button
         onClick={handleClick}
-        className="w-full rounded-full bg-gradient-to-r from-brand-orange to-brand-orangeDark text-white font-bold uppercase shadow-2xl py-6 text-lg border-2 border-white/20"
+        className="w-full rounded-full bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold uppercase shadow-2xl py-6 text-lg border-2 border-white/20"
       >
-        Garanta sua vaga
+        Quero garantir por R$ 27
+        <ArrowRight className="w-5 h-5 ml-2" />
       </Button>
     </div>
   )

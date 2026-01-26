@@ -12,12 +12,14 @@ const TermsOfUse = () => {
       </h1>
       <div className="prose prose-slate max-w-none text-slate-600 space-y-6">
         <p>
-          Ao acessar este site, você concorda em cumprir estes termos de
-          serviço, todas as leis e regulamentos aplicáveis e concorda que é
-          responsável pelo cumprimento de todas as leis locais aplicáveis. Se
-          você não concordar com algum desses termos, está proibido de usar ou
-          acessar este site. Os materiais contidos neste site são protegidos
-          pelas leis de direitos autorais e marcas comerciais aplicáveis.
+          Ao acessar este site, de propriedade e operado por{' '}
+          <strong>Junior Cristiano Alberti</strong>, você concorda em cumprir
+          estes termos de serviço, todas as leis e regulamentos aplicáveis e
+          concorda que é responsável pelo cumprimento de todas as leis locais
+          aplicáveis. Se você não concordar com algum desses termos, está
+          proibido de usar ou acessar este site. Os materiais contidos neste
+          site são protegidos pelas leis de direitos autorais e marcas
+          comerciais aplicáveis.
         </p>
 
         <h3 className="text-xl font-bold text-brand-dark">1. Licença de Uso</h3>
@@ -120,8 +122,8 @@ const TermsOfUse = () => {
         <h3 className="text-xl font-bold text-brand-dark">Lei aplicável</h3>
         <p>
           Estes termos e condições são regidos e interpretados de acordo com as
-          leis do IA Criativa para Crianças e você se submete irrevogavelmente à
-          jurisdição exclusiva dos tribunais naquele estado ou localidade.
+          leis do Brasil e você se submete irrevogavelmente à jurisdição
+          exclusiva dos tribunais naquele estado ou localidade.
         </p>
       </div>
     </div>

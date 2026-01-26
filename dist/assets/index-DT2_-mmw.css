@@ -4623,6 +4623,10 @@ video {
     width: 400px;
   }
 
+  .sm\:w-auto{
+    width: auto;
+  }
+
   .sm\:max-w-sm{
     max-width: 24rem;
   }
@@ -4761,6 +4765,11 @@ video {
 
   .md\:p-12{
     padding: 3rem;
+  }
+
+  .md\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:py-20{

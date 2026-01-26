@@ -9,6 +9,7 @@ import { Author } from '@/components/sections/Author'
 import { Pricing } from '@/components/sections/Pricing'
 import { FAQ } from '@/components/sections/FAQ'
 import { Testimonials } from '@/components/sections/Testimonials'
+import { PurchaseSection } from '@/components/PurchaseSection'
 
 const Index = () => {
   return (
@@ -16,14 +17,18 @@ const Index = () => {
       <Hero />
       <Problem />
       <Future />
+      <PurchaseSection />
       <Solution />
       <Modules />
       <Benefits />
       <Bonuses />
+      <PurchaseSection />
       <Author />
+      <PurchaseSection />
       <Pricing />
       <FAQ />
       <Testimonials />
+      <PurchaseSection />
     </div>
   )
 }
