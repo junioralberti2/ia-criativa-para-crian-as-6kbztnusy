@@ -1,4 +1,5 @@
-import { Facebook, Instagram, Mail, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Mail, Phone, Youtube } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -14,10 +15,20 @@ export const Footer = () => {
               filho para o futuro com a metodologia pioneira no Brasil.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-brand-gold transition-colors">
+              <a
+                href="https://www.instagram.com/junioralberti/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-brand-gold transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-brand-gold transition-colors">
+              <a
+                href="https://www.facebook.com/profile.php?id=61586906436788"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-brand-gold transition-colors"
+              >
                 <Facebook className="w-5 h-5" />
               </a>
               <a href="#" className="hover:text-brand-gold transition-colors">
@@ -31,7 +42,7 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="#modules"
+                  href="/#modules"
                   className="hover:text-white transition-colors"
                 >
                   O Curso
@@ -39,20 +50,20 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#benefits"
+                  href="/#benefits"
                   className="hover:text-white transition-colors"
                 >
                   Benefícios
                 </a>
               </li>
               <li>
-                <a href="#faq" className="hover:text-white transition-colors">
+                <a href="/#faq" className="hover:text-white transition-colors">
                   Perguntas Frequentes
                 </a>
               </li>
               <li>
                 <a
-                  href="#author"
+                  href="/#author"
                   className="hover:text-white transition-colors"
                 >
                   Sobre o Autor
@@ -66,7 +77,18 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>suporte@iacriativa.com.br</span>
+                <span>cursoiacriativa2026@gmail.com</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4" />
+                <a
+                  href="https://wa.me/5548992068976"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-brand-gold"
+                >
+                  (48) 99206-8976
+                </a>
               </li>
               <li>Seg - Sex, 9h às 18h</li>
             </ul>
@@ -79,12 +101,18 @@ export const Footer = () => {
             reservados.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-slate-300">
+            <Link to="/termos-de-uso" className="hover:text-slate-300">
               Termos de Uso
-            </a>
-            <a href="#" className="hover:text-slate-300">
+            </Link>
+            <Link
+              to="/politica-de-privacidade"
+              className="hover:text-slate-300"
+            >
               Política de Privacidade
-            </a>
+            </Link>
+            <Link to="/garantia" className="hover:text-slate-300">
+              Garantia
+            </Link>
           </div>
         </div>
       </div>

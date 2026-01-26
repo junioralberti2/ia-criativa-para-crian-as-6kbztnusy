@@ -14,7 +14,7 @@ export const Author = () => {
               <div className="relative inline-block">
                 <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-brand-gold shadow-lg">
                   <img
-                    src="https://img.usecurling.com/ppl/large?gender=male&seed=45"
+                    src="https://ibb.co/1fGRvrRh"
                     alt="Junior Cristiano Alberti"
                     className="w-full h-full object-cover"
                   />

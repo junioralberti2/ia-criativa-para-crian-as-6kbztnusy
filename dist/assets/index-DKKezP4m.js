@@ -19221,6 +19221,10 @@ var PenTool = createLucideIcon("pen-tool", [
 		key: "xmgehs"
 	}]
 ]);
+var Phone = createLucideIcon("phone", [["path", {
+	d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
+	key: "9njp5v"
+}]]);
 var Printer = createLucideIcon("printer", [
 	["path", {
 		d: "M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2",
@@ -24284,7 +24288,7 @@ const Hero = () => {
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://img.usecurling.com/p/800/800?q=happy%20child%20using%20tablet%20futuristic%20robot%20space%20colors&dpr=2",
+						src: "https://ibb.co/WWvXZvKT",
 						alt: "Criança aprendendo com IA",
 						className: "relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10"
 					}),
@@ -24430,9 +24434,9 @@ const Future = () => {
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "w-full md:w-1/2",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://img.usecurling.com/p/800/600?q=futuristic%20kids%20learning%20technology%20hologram&dpr=2",
+						src: "https://ibb.co/PGc15dSW",
 						alt: "O Futuro da Educação",
-						className: "rounded-2xl shadow-2xl"
+						className: "rounded-2xl shadow-2xl w-full h-auto"
 					})
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "w-full md:w-1/2 space-y-8",
@@ -24978,7 +24982,7 @@ const Author = () => {
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 									className: "w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-brand-gold shadow-lg",
 									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-										src: "https://img.usecurling.com/ppl/large?gender=male&seed=45",
+										src: "https://ibb.co/1fGRvrRh",
 										alt: "Junior Cristiano Alberti",
 										className: "w-full h-full object-cover"
 									})
@@ -25011,13 +25015,8 @@ const Author = () => {
 	});
 };
 const Pricing = () => {
-	const { toast: toast$2 } = useToast();
 	const handlePurchase = () => {
-		toast$2({
-			title: "Redirecionando...",
-			description: "Você está sendo levado para o checkout seguro.",
-			duration: 3e3
-		});
+		window.location.href = "https://pay.hotmart.com/E103583426A";
 	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		id: "pricing",
@@ -27092,6 +27091,205 @@ var NotFound = () => {
 	});
 };
 var NotFound_default = NotFound;
+var TermsOfUse = () => {
+	(0, import_react.useEffect)(() => {
+		window.scrollTo(0, 0);
+	}, []);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "container mx-auto px-4 py-12 md:py-20 max-w-4xl",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+			className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-8",
+			children: "Termos de Uso"
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "prose prose-slate max-w-none text-slate-600 space-y-6",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+					"Bem-vindo ao curso ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "IA Criativa para Crianças" }),
+					". Ao acessar e utilizar nosso conteúdo, você concorda com os termos descritos abaixo."
+				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "1. Sobre o Curso"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O \"IA Criativa para Crianças\" é um programa educacional online destinado a ensinar conceitos de Inteligência Artificial e criatividade digital para crianças e adolescentes, sob a supervisão de seus pais ou responsáveis." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "2. Uso do Conteúdo"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Todo o material disponibilizado (vídeos, textos, exercícios e bônus) é de propriedade exclusiva do curso. A licença de uso é:" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+					className: "list-disc pl-6 space-y-2",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Pessoal e intransferível." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Válida para o núcleo familiar do comprador (pais e filhos que residem na mesma casa)." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "É proibida a distribuição, revenda ou compartilhamento do login de acesso com terceiros." })
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "3. Responsabilidades"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Embora ensinemos o uso seguro da tecnologia, o monitoramento do uso da internet pelas crianças é de responsabilidade dos pais. Recomendamos que os módulos sobre Segurança Digital sejam assistidos em conjunto." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Não nos responsabilizamos pelo uso indevido das ferramentas de IA apresentadas, nem por atualizações ou mudanças nos termos de uso das próprias ferramentas (terceiros) mencionadas no curso." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "4. Pagamento e Acesso"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O acesso ao curso é liberado imediatamente após a confirmação do pagamento. O acesso é vitalício, garantindo que o aluno possa rever as aulas e receber atualizações futuras sem custo adicional." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "5. Alterações nos Termos"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Reservamo-nos o direito de alterar estes termos a qualquer momento, notificando os alunos através da plataforma do curso ou e-mail cadastrado." })
+			]
+		})]
+	});
+};
+var TermsOfUse_default = TermsOfUse;
+var PrivacyPolicy = () => {
+	(0, import_react.useEffect)(() => {
+		window.scrollTo(0, 0);
+	}, []);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "container mx-auto px-4 py-12 md:py-20 max-w-4xl",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+			className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-8",
+			children: "Política de Privacidade"
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "prose prose-slate max-w-none text-slate-600 space-y-6",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+					"A sua privacidade e a segurança dos dados da sua família são prioridades para o ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "IA Criativa para Crianças" }),
+					". Esta política detalha como coletamos e protegemos suas informações."
+				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "1. Coleta de Dados"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Coletamos apenas os dados necessários para a prestação do serviço educacional e processamento da compra:" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+					className: "list-disc pl-6 space-y-2",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Nome completo do responsável (comprador)." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "E-mail para envio do acesso e comunicações." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Telefone (WhatsApp) para suporte." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Dados de pagamento (processados de forma segura pela Hotmart)." })
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "2. Proteção à Criança"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Não coletamos dados pessoais sensíveis de crianças diretamente. O cadastro é realizado exclusivamente pelo pai, mãe ou responsável legal. Incentivamos que o uso da plataforma seja supervisionado." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "3. Uso das Informações"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Seus dados são utilizados para:" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+					className: "list-disc pl-6 space-y-2",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Liberar o acesso à área de membros." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Enviar atualizações sobre o curso e novos materiais." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Prestar suporte técnico ou pedagógico." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Emitir o certificado de conclusão (no nome do aluno indicado)." })
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "4. Compartilhamento"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Não vendemos nem compartilhamos seus dados com terceiros para fins de marketing. Seus dados são compartilhados apenas com a plataforma de hospedagem do curso (Hotmart) para viabilizar o acesso." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "5. Segurança"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Adotamos as melhores práticas de segurança digital e criptografia para proteger seus dados. Recomendamos o uso de senhas fortes para acessar a área de membros." })
+			]
+		})]
+	});
+};
+var PrivacyPolicy_default = PrivacyPolicy;
+var Guarantee = () => {
+	(0, import_react.useEffect)(() => {
+		window.scrollTo(0, 0);
+	}, []);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "container mx-auto px-4 py-12 md:py-20 max-w-4xl",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+			className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-8",
+			children: "Garantia Incondicional de 7 Dias"
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "prose prose-slate max-w-none text-slate-600 space-y-6",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+					"Acreditamos tanto na qualidade e no impacto do curso",
+					" ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "IA Criativa para Crianças" }),
+					" que oferecemos uma garantia total de satisfação."
+				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "Como funciona?"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+					"A partir do momento da compra, você tem",
+					" ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "7 dias corridos" }),
+					" para explorar todo o conteúdo do curso."
+				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+					className: "list-disc pl-6 space-y-2",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Assista às aulas." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Teste as ferramentas de IA sugeridas." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Mostre para seu filho e veja a reação dele." })
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "Se eu não gostar?"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+					"Se, por qualquer motivo, você achar que o curso não é para sua família, ou se seu filho não se adaptar, nós devolveremos",
+					" ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "100% do seu investimento" }),
+					"."
+				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "Como solicitar o reembolso?"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O processo é simples e sem burocracia:" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
+					className: "list-decimal pl-6 space-y-2",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [
+							"Envie um e-mail para",
+							" ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
+								className: "text-brand-indigo",
+								children: "cursoiacriativa2026@gmail.com"
+							}),
+							" ",
+							"ou entre em contato pelo nosso WhatsApp."
+						] }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Informe o e-mail utilizado na compra." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Solicite o cancelamento." })
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Nós processaremos o estorno imediatamente junto à plataforma de pagamento (Hotmart), e você receberá o valor integral de volta. Não faremos perguntas constrangedoras e continuaremos amigos." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "font-bold",
+					children: "O risco é todo nosso. Seu filho merece essa oportunidade!"
+				})
+			]
+		})]
+	});
+};
+var Guarantee_default = Guarantee;
 var AUTOFOCUS_ON_MOUNT = "focusScope.autoFocusOnMount";
 var AUTOFOCUS_ON_UNMOUNT = "focusScope.autoFocusOnUnmount";
 var EVENT_OPTIONS = {
@@ -28432,12 +28630,16 @@ const Footer = () => {
 								className: "flex gap-4",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-										href: "#",
+										href: "https://www.instagram.com/junioralberti/",
+										target: "_blank",
+										rel: "noopener noreferrer",
 										className: "hover:text-brand-gold transition-colors",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Instagram, { className: "w-5 h-5" })
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-										href: "#",
+										href: "https://www.facebook.com/profile.php?id=61586906436788",
+										target: "_blank",
+										rel: "noopener noreferrer",
 										className: "hover:text-brand-gold transition-colors",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Facebook, { className: "w-5 h-5" })
 									}),
@@ -28457,22 +28659,22 @@ const Footer = () => {
 						className: "space-y-2 text-sm",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#modules",
+								href: "/#modules",
 								className: "hover:text-white transition-colors",
 								children: "O Curso"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#benefits",
+								href: "/#benefits",
 								className: "hover:text-white transition-colors",
 								children: "Benefícios"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#faq",
+								href: "/#faq",
 								className: "hover:text-white transition-colors",
 								children: "Perguntas Frequentes"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#author",
+								href: "/#author",
 								className: "hover:text-white transition-colors",
 								children: "Sobre o Autor"
 							}) })
@@ -28483,10 +28685,23 @@ const Footer = () => {
 						children: "Contato"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 						className: "space-y-2 text-sm",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-							className: "flex items-center gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "w-4 h-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "suporte@iacriativa.com.br" })]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Seg - Sex, 9h às 18h" })]
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+								className: "flex items-center gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "w-4 h-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "cursoiacriativa2026@gmail.com" })]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+								className: "flex items-center gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "w-4 h-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "https://wa.me/5548992068976",
+									target: "_blank",
+									rel: "noopener noreferrer",
+									className: "hover:text-brand-gold",
+									children: "(48) 99206-8976"
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Seg - Sex, 9h às 18h" })
+						]
 					})] })
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -28497,15 +28712,23 @@ const Footer = () => {
 					" IA Criativa. Todos os direitos reservados."
 				] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex gap-6",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#",
-						className: "hover:text-slate-300",
-						children: "Termos de Uso"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#",
-						className: "hover:text-slate-300",
-						children: "Política de Privacidade"
-					})]
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/termos-de-uso",
+							className: "hover:text-slate-300",
+							children: "Termos de Uso"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/politica-de-privacidade",
+							className: "hover:text-slate-300",
+							children: "Política de Privacidade"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/garantia",
+							className: "hover:text-slate-300",
+							children: "Garantia"
+						})
+					]
 				})]
 			})]
 		})
@@ -28560,12 +28783,26 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 	children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TooltipProvider, { children: [
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster, {}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster$1, {}),
-		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Routes, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Routes, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Route, {
 			element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Layout, {}),
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
-				path: "/",
-				element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Index_default, {})
-			})
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+					path: "/",
+					element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Index_default, {})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+					path: "/termos-de-uso",
+					element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TermsOfUse_default, {})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+					path: "/politica-de-privacidade",
+					element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PrivacyPolicy_default, {})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+					path: "/garantia",
+					element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Guarantee_default, {})
+				})
+			]
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
 			path: "*",
 			element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(NotFound_default, {})
@@ -28575,4 +28812,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-sYiaJ4l3.js.map
+//# sourceMappingURL=index-DKKezP4m.js.map

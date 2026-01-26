@@ -7,9 +7,9 @@ export const Future = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
             <img
-              src="https://img.usecurling.com/p/800/600?q=futuristic%20kids%20learning%20technology%20hologram&dpr=2"
+              src="https://ibb.co/PGc15dSW"
               alt="O Futuro da Educação"
-              className="rounded-2xl shadow-2xl"
+              className="rounded-2xl shadow-2xl w-full h-auto"
             />
           </div>
           <div className="w-full md:w-1/2 space-y-8">

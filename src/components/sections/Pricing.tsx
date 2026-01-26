@@ -1,16 +1,9 @@
 import { Check, ShieldCheck, Clock, Award, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { useToast } from '@/hooks/use-toast'
 
 export const Pricing = () => {
-  const { toast } = useToast()
-
   const handlePurchase = () => {
-    toast({
-      title: 'Redirecionando...',
-      description: 'Você está sendo levado para o checkout seguro.',
-      duration: 3000,
-    })
+    window.location.href = 'https://pay.hotmart.com/E103583426A'
   }
 
   return (
