@@ -12,63 +12,88 @@ const PrivacyPolicy = () => {
       </h1>
       <div className="prose prose-slate max-w-none text-slate-600 space-y-6">
         <p>
-          A sua privacidade e a segurança dos dados da sua família são
-          prioridades para o <strong>IA Criativa para Crianças</strong>. Esta
-          política detalha como coletamos e protegemos suas informações.
+          Sua privacidade é muito importante para nós. É política do IA Criativa
+          para Crianças respeitar a sua privacidade em relação a qualquer
+          informação que possamos coletar no site IA Criativa para Crianças, e
+          outros sites que possuímos e operamos.
         </p>
-
-        <h3 className="text-xl font-bold text-brand-dark">
-          1. Coleta de Dados
-        </h3>
         <p>
-          Coletamos apenas os dados necessários para a prestação do serviço
-          educacional e processamento da compra:
+          Solicitamos informações pessoais apenas quando realmente precisamos
+          delas para lhe fornecer um serviço. Fazemo-lo por meios justos e
+          legais, com o seu conhecimento e consentimento. Também informamos por
+          que estamos coletando e como será usado.
+        </p>
+        <p>
+          Apenas retemos as informações coletadas pelo tempo necessário para
+          fornecer o serviço solicitado. Quando armazenamos dados, protegemos
+          dentro de meios comercialmente aceitáveis para evitar perdas e roubos,
+          bem como acesso, divulgação, cópia, uso ou modificação não
+          autorizados.
+        </p>
+        <p>
+          Não compartilhamos informações de identificação pessoal publicamente
+          ou com terceiros, exceto quando exigido por lei.
+        </p>
+        <p>
+          O nosso site pode ter links para sites externos que não são operados
+          por nós. Esteja ciente de que não temos controle sobre o conteúdo e
+          práticas desses sites e não podemos aceitar responsabilidade por suas
+          respectivas políticas de privacidade.
+        </p>
+        <p>
+          Você é livre para recusar a nossa solicitação de informações pessoais,
+          entendendo que talvez não possamos fornecer alguns dos serviços
+          desejados.
+        </p>
+        <p>
+          O uso continuado de nosso site será considerado como aceitação de
+          nossas práticas em torno de privacidade e informações pessoais. Se
+          você tiver alguma dúvida sobre como lidamos com dados do usuário e
+          informações pessoais, entre em contato conosco.
         </p>
         <ul className="list-disc pl-6 space-y-2">
-          <li>Nome completo do responsável (comprador).</li>
-          <li>E-mail para envio do acesso e comunicações.</li>
-          <li>Telefone (WhatsApp) para suporte.</li>
           <li>
-            Dados de pagamento (processados de forma segura pela Hotmart).
+            Os dados pessoais dos usuários são coletados para a prestação dos
+            serviços e para melhorar a experiência do usuário.
+          </li>
+          <li>
+            Para fins de segurança, não armazenamos dados sensíveis de cartões
+            de crédito, sendo o processamento realizado por gateway de pagamento
+            seguro (Hotmart).
           </li>
         </ul>
-
         <h3 className="text-xl font-bold text-brand-dark">
-          2. Proteção à Criança
+          Compromisso do Usuário
         </h3>
         <p>
-          Não coletamos dados pessoais sensíveis de crianças diretamente. O
-          cadastro é realizado exclusivamente pelo pai, mãe ou responsável
-          legal. Incentivamos que o uso da plataforma seja supervisionado.
+          O usuário se compromete a fazer uso adequado dos conteúdos e da
+          informação que o IA Criativa para Crianças oferece no site e com
+          caráter enunciativo, mas não limitativo:
         </p>
-
-        <h3 className="text-xl font-bold text-brand-dark">
-          3. Uso das Informações
-        </h3>
-        <p>Seus dados são utilizados para:</p>
         <ul className="list-disc pl-6 space-y-2">
-          <li>Liberar o acesso à área de membros.</li>
-          <li>Enviar atualizações sobre o curso e novos materiais.</li>
-          <li>Prestar suporte técnico ou pedagógico.</li>
           <li>
-            Emitir o certificado de conclusão (no nome do aluno indicado).
+            A) Não se envolver em atividades que sejam ilegais ou contrárias à
+            boa fé a à ordem pública;
+          </li>
+          <li>
+            B) Não difundir propaganda ou conteúdo de natureza racista,
+            xenofóbica, jogos de sorte ou azar, qualquer tipo de pornografia
+            ilegal, de apologia ao terrorismo ou contra os direitos humanos;
+          </li>
+          <li>
+            C) Não causar danos aos sistemas físicos (hardwares) e lógicos
+            (softwares) do IA Criativa para Crianças, de seus fornecedores ou
+            terceiros, para introduzir ou disseminar vírus informáticos ou
+            quaisquer outros sistemas de hardware ou software que sejam capazes
+            de causar danos anteriormente mencionados.
           </li>
         </ul>
-
-        <h3 className="text-xl font-bold text-brand-dark">
-          4. Compartilhamento
-        </h3>
+        <h3 className="text-xl font-bold text-brand-dark">Mais informações</h3>
         <p>
-          Não vendemos nem compartilhamos seus dados com terceiros para fins de
-          marketing. Seus dados são compartilhados apenas com a plataforma de
-          hospedagem do curso (Hotmart) para viabilizar o acesso.
-        </p>
-
-        <h3 className="text-xl font-bold text-brand-dark">5. Segurança</h3>
-        <p>
-          Adotamos as melhores práticas de segurança digital e criptografia para
-          proteger seus dados. Recomendamos o uso de senhas fortes para acessar
-          a área de membros.
+          Esperemos que esteja esclarecido e, como mencionado anteriormente, se
+          houver algo que você não tem certeza se precisa ou não, geralmente é
+          mais seguro deixar os cookies ativados, caso interaja com um dos
+          recursos que você usa em nosso site.
         </p>
       </div>
     </div>

@@ -24288,7 +24288,7 @@ const Hero = () => {
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://ibb.co/WWvXZvKT",
+						src: "https://i.ibb.co/LzdymdpG/Screenshot-3.png",
 						alt: "Criança aprendendo com IA",
 						className: "relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10"
 					}),
@@ -24434,7 +24434,7 @@ const Future = () => {
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "w-full md:w-1/2",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://ibb.co/PGc15dSW",
+						src: "https://i.ibb.co/GQWCVqhM/04.jpg",
 						alt: "O Futuro da Educação",
 						className: "rounded-2xl shadow-2xl w-full h-auto"
 					})
@@ -24819,40 +24819,40 @@ var bonuses = [
 	{
 		icon: PenTool,
 		title: "Bônus 1 – Como Criar uma Logomarca com ChatGPT",
-		description: "Uma atividade incrível para pais e filhos criarem juntos a identidade visual de canais, times ou projetos escolares, usando IA para gerar logos profissionais.",
-		price: "R$ 37,00",
+		description: "Um passo a passo simples e divertido para pais e filhos criarem juntos a identidade visual de canais, times ou projetos escolares, usando IA para gerar logos profissionais.",
+		price: "Valor: R$ 37,00 — Grátis hoje",
 		color: "text-blue-500",
 		bgColor: "bg-blue-100"
 	},
 	{
 		icon: Printer,
 		title: "Bônus 2 – Como Criar um Panfleto para Impressão",
-		description: "Aprenda a diagramar e criar panfletos reais para trabalhos escolares, festas ou para ajudar na divulgação de pequenos negócios da família.",
-		price: "R$ 27,00",
+		description: "Aprenda a diagramar e criar panfletos bonitos e reais para trabalhos escolares, festas ou para ajudar na divulgação de pequenos negócios da família.",
+		price: "Valor: R$ 27,00 — Grátis hoje",
 		color: "text-purple-500",
 		bgColor: "bg-purple-100"
 	},
 	{
 		icon: ShoppingBag,
 		title: "Bônus 3 – Criação de Descrição e Imagem para Vender Produtos",
-		description: "Desenvolva habilidades de marketing e empreendedorismo criando anúncios persuasivos e fotos atraentes para vender produtos reais ou fictícios.",
-		price: "R$ 27,00",
+		description: "Ensina papais e crianças a criar descrições atrativas e imagens profissionais para vender produtos online (reais ou fictícios) usando Inteligência Artificial.",
+		price: "Valor: R$ 27,00 — Grátis hoje",
 		color: "text-green-500",
 		bgColor: "bg-green-100"
 	},
 	{
 		icon: Sparkles,
 		title: "Bônus 4 – Pack Mestre dos Prompts",
-		description: "Uma biblioteca completa com mais de 500 comandos prontos (prompts) para criar dragões, heróis, cenários de RPG, castelos e muito mais.",
-		price: "R$ 37,00",
+		description: "Biblioteca com mais de 500 prompts prontos para criar dragões, heróis, cenários de RPG, castelos e muito mais.",
+		price: "Valor: R$ 37,00 — Grátis hoje",
 		color: "text-brand-gold",
 		bgColor: "bg-orange-100"
 	},
 	{
 		icon: BookOpen,
 		title: "🎁 Bônus Extra – Biblioteca Criativa de Prompts",
-		description: "Uma coleção curada de comandos simples e eficazes para iniciantes gerarem imagens e vídeos incríveis sem frustração.",
-		price: "R$ 17,00",
+		description: "Acesso a comandos simples e eficazes para iniciantes gerarem imagens e vídeos incríveis sem frustração.",
+		price: "Valor: R$ 17,00 — Grátis hoje",
 		color: "text-pink-500",
 		bgColor: "bg-pink-100"
 	}
@@ -24869,11 +24869,11 @@ const Bonuses = () => {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Badge, {
 						variant: "outline",
 						className: "mb-4 py-1 px-4 border-brand-indigo/30 text-brand-indigo font-bold tracking-wider uppercase bg-brand-indigo/5",
-						children: "Presentes Exclusivos"
+						children: "Bônus"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 						className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4",
-						children: "Bônus Especiais para Pais e Crianças"
+						children: "Presentes Exclusivos"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-slate-600 max-w-2xl mx-auto",
@@ -24903,18 +24903,12 @@ const Bonuses = () => {
 								children: bonus.description
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								className: "pt-4 border-t border-slate-100 mt-auto",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 									className: "flex flex-col sm:flex-row sm:items-center justify-between gap-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-										className: "text-xs text-slate-400 font-medium",
-										children: ["Valor: ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "line-through",
-											children: bonus.price
-										})]
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "text-sm font-bold text-green-600 bg-green-50 px-2 py-1 rounded border border-green-100 inline-block text-center",
-										children: "Grátis hoje"
-									})]
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-sm font-bold text-green-600 bg-green-50 px-2 py-1 rounded border border-green-100 inline-block text-center w-full",
+										children: bonus.price
+									})
 								})
 							})]
 						})
@@ -24982,7 +24976,7 @@ const Author = () => {
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 									className: "w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-brand-gold shadow-lg",
 									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-										src: "https://ibb.co/1fGRvrRh",
+										src: "https://i.ibb.co/Fb48x58N/Design-sem-nome-1.png",
 										alt: "Junior Cristiano Alberti",
 										className: "w-full h-full object-cover"
 									})
@@ -27103,45 +27097,54 @@ var TermsOfUse = () => {
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "prose prose-slate max-w-none text-slate-600 space-y-6",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
-					"Bem-vindo ao curso ",
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "IA Criativa para Crianças" }),
-					". Ao acessar e utilizar nosso conteúdo, você concorda com os termos descritos abaixo."
-				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Ao acessar este site, você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis." }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: "text-xl font-bold text-brand-dark",
-					children: "1. Sobre o Curso"
+					children: "1. Licença de Uso"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O \"IA Criativa para Crianças\" é um programa educacional online destinado a ensinar conceitos de Inteligência Artificial e criatividade digital para crianças e adolescentes, sob a supervisão de seus pais ou responsáveis." }),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-					className: "text-xl font-bold text-brand-dark",
-					children: "2. Uso do Conteúdo"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Todo o material disponibilizado (vídeos, textos, exercícios e bônus) é de propriedade exclusiva do curso. A licença de uso é:" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site IA Criativa para Crianças, apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode:" }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 					className: "list-disc pl-6 space-y-2",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Pessoal e intransferível." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Válida para o núcleo familiar do comprador (pais e filhos que residem na mesma casa)." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "É proibida a distribuição, revenda ou compartilhamento do login de acesso com terceiros." })
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Modificar ou copiar os materiais;" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Tentar descompilar ou fazer engenharia reversa de qualquer software contido no site IA Criativa para Crianças;" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor." })
 					]
 				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por IA Criativa para Crianças a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais baixados em sua posse, seja em formato eletrônico ou impresso." }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: "text-xl font-bold text-brand-dark",
-					children: "3. Responsabilidades"
+					children: "2. Isenção de responsabilidade"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Embora ensinemos o uso seguro da tecnologia, o monitoramento do uso da internet pelas crianças é de responsabilidade dos pais. Recomendamos que os módulos sobre Segurança Digital sejam assistidos em conjunto." }),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Não nos responsabilizamos pelo uso indevido das ferramentas de IA apresentadas, nem por atualizações ou mudanças nos termos de uso das próprias ferramentas (terceiros) mencionadas no curso." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Os materiais no site da IA Criativa para Crianças são fornecidos 'como estão'. IA Criativa para Crianças não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Além disso, o IA Criativa para Crianças não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site." }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: "text-xl font-bold text-brand-dark",
-					children: "4. Pagamento e Acesso"
+					children: "3. Limitações"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O acesso ao curso é liberado imediatamente após a confirmação do pagamento. O acesso é vitalício, garantindo que o aluno possa rever as aulas e receber atualizações futuras sem custo adicional." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Em nenhum caso o IA Criativa para Crianças ou seus fornecedores serão responsáveis por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da incapacidade de usar os materiais em IA Criativa para Crianças, mesmo que IA Criativa para Crianças ou um representante autorizado da IA Criativa para Crianças tenha sido notificado oralmente ou por escrito da possibilidade de tais danos. Como algumas jurisdições não permitem limitações em garantias implícitas, ou limitações de responsabilidade por danos conseqüentes ou incidentais, essas limitações podem não se aplicar a você." }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: "text-xl font-bold text-brand-dark",
-					children: "5. Alterações nos Termos"
+					children: "4. Precisão dos materiais"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Reservamo-nos o direito de alterar estes termos a qualquer momento, notificando os alunos através da plataforma do curso ou e-mail cadastrado." })
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Os materiais exibidos no site da IA Criativa para Crianças podem incluir erros técnicos, tipográficos ou fotográficos. IA Criativa para Crianças não garante que qualquer material em seu site seja preciso, completo ou atual. IA Criativa para Crianças pode fazer alterações nos materiais contidos em seu site a qualquer momento, sem aviso prévio. No entanto, IA Criativa para Crianças não se compromete a atualizar os materiais." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "5. Links"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O IA Criativa para Crianças não analisou todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer link não implica endosso por IA Criativa para Crianças do site. O uso de qualquer site vinculado é por conta e risco do usuário." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "Modificações"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O IA Criativa para Crianças pode revisar estes termos de serviço do site a qualquer momento, sem aviso prévio. Ao usar este site, você concorda em ficar vinculado à versão atual desses termos de serviço." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+					className: "text-xl font-bold text-brand-dark",
+					children: "Lei aplicável"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Estes termos e condições são regidos e interpretados de acordo com as leis do IA Criativa para Crianças e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade." })
 			]
 		})]
 	});
@@ -27159,54 +27162,35 @@ var PrivacyPolicy = () => {
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "prose prose-slate max-w-none text-slate-600 space-y-6",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
-					"A sua privacidade e a segurança dos dados da sua família são prioridades para o ",
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "IA Criativa para Crianças" }),
-					". Esta política detalha como coletamos e protegemos suas informações."
-				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Sua privacidade é muito importante para nós. É política do IA Criativa para Crianças respeitar a sua privacidade em relação a qualquer informação que possamos coletar no site IA Criativa para Crianças, e outros sites que possuímos e operamos." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco." }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+					className: "list-disc pl-6 space-y-2",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Os dados pessoais dos usuários são coletados para a prestação dos serviços e para melhorar a experiência do usuário." }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Para fins de segurança, não armazenamos dados sensíveis de cartões de crédito, sendo o processamento realizado por gateway de pagamento seguro (Hotmart)." })]
+				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: "text-xl font-bold text-brand-dark",
-					children: "1. Coleta de Dados"
+					children: "Compromisso do Usuário"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Coletamos apenas os dados necessários para a prestação do serviço educacional e processamento da compra:" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o IA Criativa para Crianças oferece no site e com caráter enunciativo, mas não limitativo:" }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 					className: "list-disc pl-6 space-y-2",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Nome completo do responsável (comprador)." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "E-mail para envio do acesso e comunicações." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Telefone (WhatsApp) para suporte." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Dados de pagamento (processados de forma segura pela Hotmart)." })
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, jogos de sorte ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do IA Criativa para Crianças, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados." })
 					]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: "text-xl font-bold text-brand-dark",
-					children: "2. Proteção à Criança"
+					children: "Mais informações"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Não coletamos dados pessoais sensíveis de crianças diretamente. O cadastro é realizado exclusivamente pelo pai, mãe ou responsável legal. Incentivamos que o uso da plataforma seja supervisionado." }),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-					className: "text-xl font-bold text-brand-dark",
-					children: "3. Uso das Informações"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Seus dados são utilizados para:" }),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-					className: "list-disc pl-6 space-y-2",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Liberar o acesso à área de membros." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Enviar atualizações sobre o curso e novos materiais." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Prestar suporte técnico ou pedagógico." }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Emitir o certificado de conclusão (no nome do aluno indicado)." })
-					]
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-					className: "text-xl font-bold text-brand-dark",
-					children: "4. Compartilhamento"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Não vendemos nem compartilhamos seus dados com terceiros para fins de marketing. Seus dados são compartilhados apenas com a plataforma de hospedagem do curso (Hotmart) para viabilizar o acesso." }),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-					className: "text-xl font-bold text-brand-dark",
-					children: "5. Segurança"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Adotamos as melhores práticas de segurança digital e criptografia para proteger seus dados. Recomendamos o uso de senhas fortes para acessar a área de membros." })
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site." })
 			]
 		})]
 	});
@@ -28812,4 +28796,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-DKKezP4m.js.map
+//# sourceMappingURL=index-C-pdyDp5.js.map

@@ -88,7 +88,7 @@ export const Hero = () => {
         <div className="relative animate-float hidden md:block">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" />
           <img
-            src="https://ibb.co/WWvXZvKT"
+            src="https://i.ibb.co/LzdymdpG/Screenshot-3.png"
             alt="Criança aprendendo com IA"
             className="relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10"
           />

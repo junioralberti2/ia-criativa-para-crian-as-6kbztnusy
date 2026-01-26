@@ -14,8 +14,8 @@ const bonuses = [
     icon: PenTool,
     title: 'Bônus 1 – Como Criar uma Logomarca com ChatGPT',
     description:
-      'Uma atividade incrível para pais e filhos criarem juntos a identidade visual de canais, times ou projetos escolares, usando IA para gerar logos profissionais.',
-    price: 'R$ 37,00',
+      'Um passo a passo simples e divertido para pais e filhos criarem juntos a identidade visual de canais, times ou projetos escolares, usando IA para gerar logos profissionais.',
+    price: 'Valor: R$ 37,00 — Grátis hoje',
     color: 'text-blue-500',
     bgColor: 'bg-blue-100',
   },
@@ -23,8 +23,8 @@ const bonuses = [
     icon: Printer,
     title: 'Bônus 2 – Como Criar um Panfleto para Impressão',
     description:
-      'Aprenda a diagramar e criar panfletos reais para trabalhos escolares, festas ou para ajudar na divulgação de pequenos negócios da família.',
-    price: 'R$ 27,00',
+      'Aprenda a diagramar e criar panfletos bonitos e reais para trabalhos escolares, festas ou para ajudar na divulgação de pequenos negócios da família.',
+    price: 'Valor: R$ 27,00 — Grátis hoje',
     color: 'text-purple-500',
     bgColor: 'bg-purple-100',
   },
@@ -32,8 +32,8 @@ const bonuses = [
     icon: ShoppingBag,
     title: 'Bônus 3 – Criação de Descrição e Imagem para Vender Produtos',
     description:
-      'Desenvolva habilidades de marketing e empreendedorismo criando anúncios persuasivos e fotos atraentes para vender produtos reais ou fictícios.',
-    price: 'R$ 27,00',
+      'Ensina papais e crianças a criar descrições atrativas e imagens profissionais para vender produtos online (reais ou fictícios) usando Inteligência Artificial.',
+    price: 'Valor: R$ 27,00 — Grátis hoje',
     color: 'text-green-500',
     bgColor: 'bg-green-100',
   },
@@ -41,8 +41,8 @@ const bonuses = [
     icon: Sparkles,
     title: 'Bônus 4 – Pack Mestre dos Prompts',
     description:
-      'Uma biblioteca completa com mais de 500 comandos prontos (prompts) para criar dragões, heróis, cenários de RPG, castelos e muito mais.',
-    price: 'R$ 37,00',
+      'Biblioteca com mais de 500 prompts prontos para criar dragões, heróis, cenários de RPG, castelos e muito mais.',
+    price: 'Valor: R$ 37,00 — Grátis hoje',
     color: 'text-brand-gold',
     bgColor: 'bg-orange-100',
   },
@@ -50,8 +50,8 @@ const bonuses = [
     icon: BookOpen,
     title: '🎁 Bônus Extra – Biblioteca Criativa de Prompts',
     description:
-      'Uma coleção curada de comandos simples e eficazes para iniciantes gerarem imagens e vídeos incríveis sem frustração.',
-    price: 'R$ 17,00',
+      'Acesso a comandos simples e eficazes para iniciantes gerarem imagens e vídeos incríveis sem frustração.',
+    price: 'Valor: R$ 17,00 — Grátis hoje',
     color: 'text-pink-500',
     bgColor: 'bg-pink-100',
   },
@@ -66,10 +66,10 @@ export const Bonuses = () => {
             variant="outline"
             className="mb-4 py-1 px-4 border-brand-indigo/30 text-brand-indigo font-bold tracking-wider uppercase bg-brand-indigo/5"
           >
-            Presentes Exclusivos
+            Bônus
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">
-            Bônus Especiais para Pais e Crianças
+            Presentes Exclusivos
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
             Ao garantir sua vaga hoje, você recebe gratuitamente este pacote de
@@ -102,11 +102,8 @@ export const Bonuses = () => {
                 </p>
                 <div className="pt-4 border-t border-slate-100 mt-auto">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                    <span className="text-xs text-slate-400 font-medium">
-                      Valor: <span className="line-through">{bonus.price}</span>
-                    </span>
-                    <span className="text-sm font-bold text-green-600 bg-green-50 px-2 py-1 rounded border border-green-100 inline-block text-center">
-                      Grátis hoje
+                    <span className="text-sm font-bold text-green-600 bg-green-50 px-2 py-1 rounded border border-green-100 inline-block text-center w-full">
+                      {bonus.price}
                     </span>
                   </div>
                 </div>

@@ -7,7 +7,7 @@ export const Future = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
             <img
-              src="https://ibb.co/PGc15dSW"
+              src="https://i.ibb.co/GQWCVqhM/04.jpg"
               alt="O Futuro da Educação"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
