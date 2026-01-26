@@ -1,9 +1,5 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/ui/accordion'
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
+import { HelpCircle } from 'lucide-react'
 
 const faqItems = [
   {
@@ -65,33 +61,40 @@ const faqItems = [
 
 export const FAQ = () => {
   return (
-    <section id="faq" className="py-20 bg-white">
-      <div className="container mx-auto px-4 max-w-3xl">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold font-heading text-brand-dark mb-4">
+    <section id="faq" className="py-20 bg-brand-light">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center justify-center p-3 bg-brand-indigo/10 rounded-full mb-4">
+            <HelpCircle className="w-6 h-6 text-brand-indigo" />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">
             Perguntas Frequentes
           </h2>
-          <p className="text-slate-600">
-            Tire suas dúvidas e faça a matrícula com tranquilidade.
+          <p className="text-slate-600 max-w-2xl mx-auto">
+            Tudo o que você precisa saber para tomar a melhor decisão para o
+            futuro do seu filho.
           </p>
         </div>
 
-        <Accordion type="single" collapsible className="w-full">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {faqItems.map((item, index) => (
-            <AccordionItem
+            <Card
               key={index}
-              value={`item-${index}`}
-              className="border-b border-slate-100"
+              className="border-slate-200 shadow-sm hover:shadow-md transition-shadow duration-300"
             >
-              <AccordionTrigger className="text-left font-semibold text-brand-dark hover:text-brand-indigo hover:no-underline py-4">
-                {item.question}
-              </AccordionTrigger>
-              <AccordionContent className="text-slate-600 leading-relaxed">
-                {item.answer}
-              </AccordionContent>
-            </AccordionItem>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg font-bold text-brand-dark leading-tight">
+                  {item.question}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  {item.answer}
+                </p>
+              </CardContent>
+            </Card>
           ))}
-        </Accordion>
+        </div>
       </div>
     </section>
   )
