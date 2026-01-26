@@ -1,10 +1,29 @@
-/* Home Page - Replace this page layout, components, content, behavior with what you want and translate to the language of the user */
+import { Hero } from '@/components/sections/Hero'
+import { Problem } from '@/components/sections/Problem'
+import { Future } from '@/components/sections/Future'
+import { Solution } from '@/components/sections/Solution'
+import { Modules } from '@/components/sections/Modules'
+import { Benefits } from '@/components/sections/Benefits'
+import { Bonuses } from '@/components/sections/Bonuses'
+import { Author } from '@/components/sections/Author'
+import { Pricing } from '@/components/sections/Pricing'
+import { FAQ } from '@/components/sections/FAQ'
+import { Testimonials } from '@/components/sections/Testimonials'
+
 const Index = () => {
   return (
-    <div className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold mb-6">
-        This is a example page ready to be rewritten with your own content
-      </h1>
+    <div className="overflow-x-hidden">
+      <Hero />
+      <Problem />
+      <Future />
+      <Solution />
+      <Modules />
+      <Benefits />
+      <Bonuses />
+      <Author />
+      <Pricing />
+      <FAQ />
+      <Testimonials />
     </div>
   )
 }

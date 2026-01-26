@@ -1,0 +1,107 @@
+import { Button } from '@/components/ui/button'
+import { Rocket, Star, Sparkles, ArrowRight } from 'lucide-react'
+
+export const Hero = () => {
+  const scrollToPricing = () => {
+    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  return (
+    <section
+      id="hero"
+      className="relative min-h-screen pt-[70px] overflow-hidden hero-gradient flex items-center"
+    >
+      {/* Animated Stars Background */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {[...Array(20)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute bg-white rounded-full opacity-20 animate-pulse"
+            style={{
+              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 100}%`,
+              width: `${Math.random() * 4 + 1}px`,
+              height: `${Math.random() * 4 + 1}px`,
+              animationDuration: `${Math.random() * 3 + 2}s`,
+            }}
+          />
+        ))}
+      </div>
+
+      <div className="container mx-auto px-4 py-12 md:py-20 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+        <div className="text-center md:text-left space-y-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-indigo/30 rounded-full border border-brand-indigo/50 animate-fade-in-down">
+            <Sparkles className="w-4 h-4 text-brand-gold" />
+            <span className="text-brand-gold text-xs md:text-sm font-bold uppercase tracking-wider">
+              O futuro da educação infantil
+            </span>
+          </div>
+
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white leading-tight animate-fade-in text-shadow">
+            Seu filho vai apenas{' '}
+            <span className="text-brand-indigo bg-white/10 px-2 rounded">
+              passar o tempo
+            </span>{' '}
+            nas telas ou se{' '}
+            <span className="text-brand-gold">preparar para o futuro?</span>
+          </h1>
+
+          <p className="text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0 animate-fade-in-up delay-100">
+            Transforme o vício em telas em uma superpotência criativa. Ensine
+            seu filho a criar desenhos, histórias, músicas e jogos usando
+            Inteligência Artificial.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4 animate-fade-in-up delay-200">
+            <Button
+              onClick={scrollToPricing}
+              size="lg"
+              className="rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base px-8 py-6 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0"
+            >
+              Quero transformar o tempo de tela
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </div>
+
+          <div className="flex items-center justify-center md:justify-start gap-4 pt-4 text-sm text-slate-400">
+            <div className="flex -space-x-2">
+              <img
+                src="https://img.usecurling.com/ppl/thumbnail?gender=male&seed=1"
+                className="w-8 h-8 rounded-full border-2 border-slate-900"
+                alt="Student"
+              />
+              <img
+                src="https://img.usecurling.com/ppl/thumbnail?gender=female&seed=2"
+                className="w-8 h-8 rounded-full border-2 border-slate-900"
+                alt="Student"
+              />
+              <img
+                src="https://img.usecurling.com/ppl/thumbnail?gender=male&seed=3"
+                className="w-8 h-8 rounded-full border-2 border-slate-900"
+                alt="Student"
+              />
+            </div>
+            <p>Mais de 5.000 alunos transformados</p>
+          </div>
+        </div>
+
+        <div className="relative animate-float hidden md:block">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" />
+          <img
+            src="https://img.usecurling.com/p/800/800?q=happy%20child%20using%20tablet%20futuristic%20robot%20space%20colors&dpr=2"
+            alt="Criança aprendendo com IA"
+            className="relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10"
+          />
+
+          {/* Floating Icons */}
+          <div className="absolute -top-10 -right-10 bg-white p-4 rounded-2xl shadow-xl animate-bounce delay-700">
+            <Rocket className="w-8 h-8 text-brand-indigo" />
+          </div>
+          <div className="absolute -bottom-5 -left-5 bg-white p-4 rounded-2xl shadow-xl animate-bounce delay-300">
+            <Star className="w-8 h-8 text-brand-gold" />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
