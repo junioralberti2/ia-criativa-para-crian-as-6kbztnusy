@@ -18984,6 +18984,13 @@ var Check = createLucideIcon("check", [["path", {
 	d: "M20 6 9 17l-5-5",
 	key: "1gmf2c"
 }]]);
+var CircleCheckBig = createLucideIcon("circle-check-big", [["path", {
+	d: "M21.801 10A10 10 0 1 1 17 3.335",
+	key: "yps3ct"
+}], ["path", {
+	d: "m9 11 3 3L22 4",
+	key: "1pflzl"
+}]]);
 var CircleCheck = createLucideIcon("circle-check", [["circle", {
 	cx: "12",
 	cy: "12",
@@ -27108,6 +27115,81 @@ const PurchaseSection = () => {
 		})
 	});
 };
+const GuaranteeSection = () => {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		className: "py-12 bg-brand-light",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "container mx-auto px-4",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "max-w-4xl mx-auto",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
+					className: "border-2 border-brand-gold bg-white shadow-xl relative overflow-hidden transform hover:-translate-y-1 transition-transform duration-300",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute -right-20 -top-20 w-64 h-64 bg-brand-gold/10 rounded-full blur-3xl pointer-events-none" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute -left-20 -bottom-20 w-64 h-64 bg-brand-indigo/5 rounded-full blur-3xl pointer-events-none" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
+							className: "p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 md:gap-12 relative z-10",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "shrink-0 relative",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "relative w-40 h-40 flex items-center justify-center",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-brand-gold/10 rounded-full animate-pulse-slow" }),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+											src: "https://img.usecurling.com/i?q=shield-check&color=yellow&shape=fill",
+											alt: "Selo de Garantia de 7 Dias",
+											className: "w-32 h-32 object-contain drop-shadow-md relative z-10"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "absolute -bottom-2 left-1/2 -translate-x-1/2 bg-brand-dark text-brand-gold text-xs font-bold px-4 py-1 rounded-full shadow-lg whitespace-nowrap border border-brand-gold/30",
+											children: "Risco Zero"
+										})
+									]
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "text-center md:text-left space-y-5 flex-1",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+										className: "text-2xl md:text-3xl font-bold font-heading text-brand-dark mb-2",
+										children: "Garantia Incondicional de 7 Dias"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										className: "text-slate-600 text-base md:text-lg leading-relaxed",
+										children: [
+											"Você tem 7 dias para acessar todo o conteúdo, conhecer a metodologia e ver seu filho criando. Se por qualquer motivo você não ficar 100% satisfeito, nós devolvemos",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
+												className: "text-brand-indigo",
+												children: "todo o seu dinheiro"
+											}),
+											"."
+										]
+									})] }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex flex-col gap-3",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center justify-center md:justify-start gap-2 text-sm text-slate-500",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheckBig, { className: "w-4 h-4 text-green-500" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Sem letras miúdas" })]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center justify-center md:justify-start gap-2 text-sm text-slate-500",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheckBig, { className: "w-4 h-4 text-green-500" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Reembolso automático via Hotmart" })]
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "pt-2",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "inline-flex items-center gap-2 text-sm font-bold text-brand-dark bg-brand-gold/20 px-4 py-2 rounded-lg border border-brand-gold/30",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "w-5 h-5 text-brand-dark" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Sua compra está totalmente protegida" })]
+										})
+									})
+								]
+							})]
+						})
+					]
+				})
+			})
+		})
+	});
+};
 var Index = () => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "overflow-x-hidden",
@@ -27124,6 +27206,7 @@ var Index = () => {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Author, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PurchaseSection, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(GuaranteeSection, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FAQ, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Testimonials, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PurchaseSection, {})
@@ -28886,4 +28969,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-u2AslrlD.js.map
+//# sourceMappingURL=index-C9G_fA7o.js.map

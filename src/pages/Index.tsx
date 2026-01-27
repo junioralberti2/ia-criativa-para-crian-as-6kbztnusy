@@ -10,6 +10,7 @@ import { Pricing } from '@/components/sections/Pricing'
 import { FAQ } from '@/components/sections/FAQ'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { PurchaseSection } from '@/components/PurchaseSection'
+import { GuaranteeSection } from '@/components/sections/GuaranteeSection'
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
       <Author />
       <PurchaseSection />
       <Pricing />
+      <GuaranteeSection />
       <FAQ />
       <Testimonials />
       <PurchaseSection />
