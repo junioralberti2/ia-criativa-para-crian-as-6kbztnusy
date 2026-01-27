@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { useToast } from '@/hooks/use-toast'
 import { ArrowRight } from 'lucide-react'
+import { trackEvent } from '@/lib/facebook'
 
 export const StickyCTA = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -20,6 +21,7 @@ export const StickyCTA = () => {
   }, [])
 
   const handleClick = () => {
+    trackEvent('InitiateCheckout')
     window.location.href = 'https://pay.hotmart.com/E103583426A'
     toast({
       title: 'Ótima escolha!',

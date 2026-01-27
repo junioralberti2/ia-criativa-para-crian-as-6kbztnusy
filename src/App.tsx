@@ -9,6 +9,7 @@ import TermsOfUse from './pages/TermsOfUse'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import Guarantee from './pages/Guarantee'
 import Layout from './components/Layout'
+import { FacebookPixel } from '@/components/FacebookPixel'
 
 // ONLY IMPORT AND RENDER WORKING PAGES, NEVER ADD PLACEHOLDER COMPONENTS OR PAGES IN THIS FILE
 // AVOID REMOVING ANY CONTEXT PROVIDERS FROM THIS FILE (e.g. TooltipProvider, Toaster, Sonner)
@@ -17,6 +18,7 @@ const App = () => (
   <BrowserRouter
     future={{ v7_startTransition: false, v7_relativeSplatPath: false }}
   >
+    <FacebookPixel />
     <TooltipProvider>
       <Toaster />
       <Sonner />

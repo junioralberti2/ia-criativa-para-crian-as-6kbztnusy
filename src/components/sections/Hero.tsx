@@ -1,8 +1,10 @@
 import { Button } from '@/components/ui/button'
 import { Rocket, Star, Sparkles, ArrowRight } from 'lucide-react'
+import { trackEvent } from '@/lib/facebook'
 
 export const Hero = () => {
   const handlePurchase = () => {
+    trackEvent('InitiateCheckout')
     window.location.href = 'https://pay.hotmart.com/E103583426A'
   }
 
