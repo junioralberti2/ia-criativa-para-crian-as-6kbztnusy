@@ -10,28 +10,37 @@ export const FB_CAPI_TOKEN =
   'EAF1Qz1UQG0cBQiOUJPtPZAqdUfuG9SDAv7Xx9HRplDqte42VDZCZAKge8appRT8tvJmTO44N7TLhQpkgNtUiMde1TVIAqBNuNo2gMaUv4wsEzFAGJA5xY1DrlP4zC6kBXSmHNLRekAMxb4jTknYg0kHqSp5rdnu7aaPmf21hDwplfprZBB3oBZCgBQABGggZDZD'
 
 export const initFacebookPixel = () => {
+  if (typeof window === 'undefined') return
   if (window.fbq) return
-  ;(function (f, b, e, v, n, t, s) {
-    if (f.fbq) return
-    n = f.fbq = function () {
-      n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+
+  const f = window as any
+
+  if (f.fbq) return
+
+  const n: any = function (...args: any[]) {
+    if (n.callMethod) {
+      n.callMethod(...args)
+    } else {
+      n.queue.push(args)
     }
-    if (!f._fbq) f._fbq = n
-    n.push = n
-    n.loaded = !0
-    n.version = '2.0'
-    n.queue = []
-    t = b.createElement(e)
-    t.async = !0
-    t.src = v
-    s = b.getElementsByTagName(e)[0]
+  }
+
+  f.fbq = n
+  f._fbq = n
+
+  n.push = n
+  n.loaded = true
+  n.version = '2.0'
+  n.queue = []
+
+  const t = document.createElement('script')
+  t.async = true
+  t.src = 'https://connect.facebook.net/en_US/fbevents.js'
+
+  const s = document.getElementsByTagName('script')[0]
+  if (s?.parentNode) {
     s.parentNode.insertBefore(t, s)
-  })(
-    window,
-    document,
-    'script',
-    'https://connect.facebook.net/en_US/fbevents.js',
-  )
+  }
 
   window.fbq('init', FB_PIXEL_ID)
 }
@@ -43,7 +52,7 @@ export const trackEvent = async (
   const eventId =
     typeof crypto !== 'undefined' && crypto.randomUUID
       ? crypto.randomUUID()
-      : 'evt_' + Date.now() + Math.random().toString(36).substr(2, 9)
+      : 'evt_' + Date.now() + Math.random().toString(36).substring(2, 11)
 
   // 1. Track Browser Pixel
   if (window.fbq) {

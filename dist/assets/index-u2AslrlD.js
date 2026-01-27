@@ -24200,27 +24200,29 @@ Button.displayName = "Button";
 const FB_PIXEL_ID = "1204931778279458";
 const FB_CAPI_TOKEN = "EAF1Qz1UQG0cBQiOUJPtPZAqdUfuG9SDAv7Xx9HRplDqte42VDZCZAKge8appRT8tvJmTO44N7TLhQpkgNtUiMde1TVIAqBNuNo2gMaUv4wsEzFAGJA5xY1DrlP4zC6kBXSmHNLRekAMxb4jTknYg0kHqSp5rdnu7aaPmf21hDwplfprZBB3oBZCgBQABGggZDZD";
 const initFacebookPixel = () => {
+	if (typeof window === "undefined") return;
 	if (window.fbq) return;
-	(function(f, b$1, e, v, n, t, s) {
-		if (f.fbq) return;
-		n = f.fbq = function() {
-			n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-		};
-		if (!f._fbq) f._fbq = n;
-		n.push = n;
-		n.loaded = !0;
-		n.version = "2.0";
-		n.queue = [];
-		t = b$1.createElement(e);
-		t.async = !0;
-		t.src = v;
-		s = b$1.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t, s);
-	})(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+	const f = window;
+	if (f.fbq) return;
+	const n = function(...args) {
+		if (n.callMethod) n.callMethod(...args);
+		else n.queue.push(args);
+	};
+	f.fbq = n;
+	f._fbq = n;
+	n.push = n;
+	n.loaded = true;
+	n.version = "2.0";
+	n.queue = [];
+	const t = document.createElement("script");
+	t.async = true;
+	t.src = "https://connect.facebook.net/en_US/fbevents.js";
+	const s = document.getElementsByTagName("script")[0];
+	if (s?.parentNode) s.parentNode.insertBefore(t, s);
 	window.fbq("init", FB_PIXEL_ID);
 };
 const trackEvent = async (eventName, params = {}) => {
-	const eventId = typeof crypto !== "undefined" && crypto.randomUUID ? crypto.randomUUID() : "evt_" + Date.now() + Math.random().toString(36).substr(2, 9);
+	const eventId = typeof crypto !== "undefined" && crypto.randomUUID ? crypto.randomUUID() : "evt_" + Date.now() + Math.random().toString(36).substring(2, 11);
 	if (window.fbq) window.fbq("track", eventName, params, { eventID: eventId });
 	try {
 		const eventData = {
@@ -28884,4 +28886,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-D1vQ9-BG.js.map
+//# sourceMappingURL=index-u2AslrlD.js.map
