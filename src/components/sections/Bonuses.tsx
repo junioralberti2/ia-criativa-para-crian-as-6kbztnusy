@@ -121,16 +121,23 @@ export const Bonuses = () => {
                 <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-6 animate-pulse">
                   <Gift className="w-8 h-8 text-brand-gold" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">
+                <h3 className="text-xl font-bold mb-4 text-slate-200">
                   Valor Total dos Bônus
                 </h3>
-                <div className="text-4xl font-extrabold text-brand-gold mb-2">
-                  R$ 145,00
+
+                <div className="flex flex-col items-center justify-center gap-2 mb-6">
+                  <div className="text-2xl font-bold text-red-400 line-through decoration-red-400/50 decoration-2">
+                    R$ 145,00
+                  </div>
+                  <div className="text-5xl font-extrabold text-green-400 uppercase tracking-tight drop-shadow-lg">
+                    DE GRAÇA
+                  </div>
                 </div>
+
                 <p className="text-slate-300 text-sm">
                   Você leva tudo isso{' '}
-                  <strong className="text-white">de graça</strong> ao se
-                  inscrever agora.
+                  <strong className="text-white">sem custo adicional</strong> ao
+                  se inscrever agora.
                 </p>
               </CardContent>
             </Card>

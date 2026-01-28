@@ -24986,12 +24986,18 @@ const Bonuses = () => {
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Gift, { className: "w-8 h-8 text-brand-gold" })
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-										className: "text-xl font-bold mb-2",
+										className: "text-xl font-bold mb-4 text-slate-200",
 										children: "Valor Total dos Bônus"
 									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										className: "text-4xl font-extrabold text-brand-gold mb-2",
-										children: "R$ 145,00"
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex flex-col items-center justify-center gap-2 mb-6",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-2xl font-bold text-red-400 line-through decoration-red-400/50 decoration-2",
+											children: "R$ 145,00"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-5xl font-extrabold text-green-400 uppercase tracking-tight drop-shadow-lg",
+											children: "DE GRAÇA"
+										})]
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 										className: "text-slate-300 text-sm",
@@ -25000,7 +25006,7 @@ const Bonuses = () => {
 											" ",
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
 												className: "text-white",
-												children: "de graça"
+												children: "sem custo adicional"
 											}),
 											" ao se inscrever agora."
 										]
@@ -28969,4 +28975,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-C9G_fA7o.js.map
+//# sourceMappingURL=index-BFSjmemv.js.map
