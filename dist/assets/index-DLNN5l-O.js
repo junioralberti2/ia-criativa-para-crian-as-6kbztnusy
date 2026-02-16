@@ -24204,8 +24204,8 @@ var Button = import_react.forwardRef(({ className, variant, size: size$3, asChil
 	});
 });
 Button.displayName = "Button";
-const FB_PIXEL_ID = "1204931778279458";
-const FB_CAPI_TOKEN = "EAF1Qz1UQG0cBQiOUJPtPZAqdUfuG9SDAv7Xx9HRplDqte42VDZCZAKge8appRT8tvJmTO44N7TLhQpkgNtUiMde1TVIAqBNuNo2gMaUv4wsEzFAGJA5xY1DrlP4zC6kBXSmHNLRekAMxb4jTknYg0kHqSp5rdnu7aaPmf21hDwplfprZBB3oBZCgBQABGggZDZD";
+const FB_PIXEL_ID = "870230895767208";
+const FB_CAPI_TOKEN = "EAF1Qz1UQG0cBQoqQ5jldOGr9X99j5QHDSMqUlQdnnhZCl4H2xqil5P4gSExcRfoTqqCpkRZByzTrrNxocGLWhpyBnCzUHkUiggjPS3TeKzQwCavabEaSZB8l71mFQgRZCBL9D9vPXZAfjHpfbDVuwJAil8ds5GIoNTxthZAseNuVnkPWMZADEvIe1RfBGMUCwZDZD";
 const initFacebookPixel = () => {
 	if (typeof window === "undefined") return;
 	if (window.fbq) return;
@@ -29003,4 +29003,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CJd3Sjbl.js.map
+//# sourceMappingURL=index-DLNN5l-O.js.map
