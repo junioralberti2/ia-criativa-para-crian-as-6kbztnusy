@@ -47,7 +47,7 @@ export const Hero = () => {
 
           <p className="text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0 animate-fade-in-up delay-100">
             O curso prático de IA que desperta a criatividade e prepara crianças
-            de 7 a 14 anos para a nova alfabetização digital.
+            a partir de 7 anos para a nova alfabetização digital.
           </p>
 
           <div className="flex flex-col gap-3 justify-center md:justify-start pt-4 animate-fade-in-up delay-200">

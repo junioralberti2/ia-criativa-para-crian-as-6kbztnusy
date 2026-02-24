@@ -24198,7 +24198,7 @@ const Hero = () => {
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0 animate-fade-in-up delay-100",
-						children: "O curso prático de IA que desperta a criatividade e prepara crianças de 7 a 14 anos para a nova alfabetização digital."
+						children: "O curso prático de IA que desperta a criatividade e prepara crianças a partir de 7 anos para a nova alfabetização digital."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "flex flex-col gap-3 justify-center md:justify-start pt-4 animate-fade-in-up delay-200",
@@ -28802,4 +28802,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-fmaPP3Xn.js.map
+//# sourceMappingURL=index-BNZu5sda.js.map
