@@ -81,7 +81,7 @@ export const Solution = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-brand-indigo to-brand-purple rounded-2xl rotate-3 opacity-50 blur-lg" />
             <img
-              src="https://img.usecurling.com/p/800/600?q=kids%20learning%20computer%20happy&color=purple&dpr=2"
+              src="https://i.ibb.co/sJ5kMFc0/Chat-GPT-Image-23-de-fev-de-2026-08-17-19.png"
               alt="Crianças aprendendo juntas"
               className="relative rounded-2xl shadow-2xl border border-white/10 object-cover"
             />

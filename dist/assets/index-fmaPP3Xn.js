@@ -24218,7 +24218,7 @@ const Hero = () => {
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://img.usecurling.com/p/800/800?q=child%20using%20tablet%20learning%20future%20technology&color=blue&dpr=2",
+						src: "https://i.ibb.co/HTCC4MyQ/Chat-GPT-Image-24-de-fev-de-2026-16-16-51.png",
 						alt: "Criança aprendendo com IA",
 						className: "relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10 object-cover"
 					}),
@@ -24371,7 +24371,7 @@ const Opportunity = () => {
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "w-full md:w-1/2",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://img.usecurling.com/p/800/600?q=child%20having%20an%20idea%20lightbulb%20concept&color=yellow&dpr=2",
+						src: "https://i.ibb.co/7thSZMVq/Chat-GPT-Image-23-de-fev-de-2026-08-10-35.png",
 						alt: "A Grande Oportunidade",
 						className: "rounded-2xl shadow-2xl w-full h-auto object-cover border border-slate-100"
 					})
@@ -24534,7 +24534,7 @@ const Solution = () => {
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "relative",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-gradient-to-r from-brand-indigo to-brand-purple rounded-2xl rotate-3 opacity-50 blur-lg" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-							src: "https://img.usecurling.com/p/800/600?q=kids%20learning%20computer%20happy&color=purple&dpr=2",
+							src: "https://i.ibb.co/sJ5kMFc0/Chat-GPT-Image-23-de-fev-de-2026-08-17-19.png",
 							alt: "Crianças aprendendo juntas",
 							className: "relative rounded-2xl shadow-2xl border border-white/10 object-cover"
 						})]
@@ -28802,4 +28802,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-DqIoNuzd.js.map
+//# sourceMappingURL=index-fmaPP3Xn.js.map

@@ -8,7 +8,7 @@ export const Opportunity = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
             <img
-              src="https://img.usecurling.com/p/800/600?q=child%20having%20an%20idea%20lightbulb%20concept&color=yellow&dpr=2"
+              src="https://i.ibb.co/7thSZMVq/Chat-GPT-Image-23-de-fev-de-2026-08-10-35.png"
               alt="A Grande Oportunidade"
               className="rounded-2xl shadow-2xl w-full h-auto object-cover border border-slate-100"
             />

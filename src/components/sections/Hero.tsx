@@ -70,7 +70,7 @@ export const Hero = () => {
         <div className="relative animate-float hidden md:block">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" />
           <img
-            src="https://img.usecurling.com/p/800/800?q=child%20using%20tablet%20learning%20future%20technology&color=blue&dpr=2"
+            src="https://i.ibb.co/HTCC4MyQ/Chat-GPT-Image-24-de-fev-de-2026-16-16-51.png"
             alt="Criança aprendendo com IA"
             className="relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10 object-cover"
           />
