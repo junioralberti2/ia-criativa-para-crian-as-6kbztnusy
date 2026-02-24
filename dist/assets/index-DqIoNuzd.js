@@ -19133,20 +19133,6 @@ var Mail = createLucideIcon("mail", [["path", {
 	rx: "2",
 	key: "izxlao"
 }]]);
-var Megaphone = createLucideIcon("megaphone", [
-	["path", {
-		d: "M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z",
-		key: "q8bfy3"
-	}],
-	["path", {
-		d: "M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14",
-		key: "1853fq"
-	}],
-	["path", {
-		d: "M8 6v8",
-		key: "15ugcq"
-	}]
-]);
 var Menu = createLucideIcon("menu", [
 	["path", {
 		d: "M4 5h16",
@@ -19264,26 +19250,6 @@ var Star = createLucideIcon("star", [["path", {
 	d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
 	key: "r04s7s"
 }]]);
-var Target = createLucideIcon("target", [
-	["circle", {
-		cx: "12",
-		cy: "12",
-		r: "10",
-		key: "1mglay"
-	}],
-	["circle", {
-		cx: "12",
-		cy: "12",
-		r: "6",
-		key: "1vlfrh"
-	}],
-	["circle", {
-		cx: "12",
-		cy: "12",
-		r: "2",
-		key: "1c9p78"
-	}]
-]);
 var Users = createLucideIcon("users", [
 	["path", {
 		d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",
@@ -27032,114 +26998,6 @@ const Pricing = () => {
 		})
 	});
 };
-const MarketingAssets = () => {
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-		className: "py-20 bg-slate-900 text-slate-300 border-t border-slate-800",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "container mx-auto px-4",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "text-center mb-16",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-					className: "text-3xl font-bold font-heading text-white mb-4",
-					children: "Marketing Assets"
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-slate-400 max-w-2xl mx-auto",
-					children: "Coleção de copys, ganchos e headlines para produção de criativos e testes A/B."
-				})]
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid md:grid-cols-3 gap-8",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-						className: "bg-slate-800 border-slate-700",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardHeader, {
-							className: "pb-3",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center gap-2 mb-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Megaphone, { className: "w-5 h-5 text-brand-gold" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
-									className: "text-lg text-white",
-									children: "Headlines para Teste A/B"
-								})]
-							})
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardContent, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-							className: "space-y-4 text-sm",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-									className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-									children: "\"Seu filho criativo e preparado para a nova era digital.\""
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-									className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-									children: "\"Não deixe seu filho para trás na revolução da Inteligência Artificial.\""
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-									className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-									children: "\"O guia definitivo de IA para crianças: transformando curiosidade em habilidade.\""
-								})
-							]
-						}) })]
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-						className: "bg-slate-800 border-slate-700",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardHeader, {
-							className: "pb-3",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center gap-2 mb-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Target, { className: "w-5 h-5 text-green-400" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
-									className: "text-lg text-white",
-									children: "Variações de CTA"
-								})]
-							})
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardContent, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-							className: "space-y-4 text-sm",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-									className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-									children: "\"Garantir vaga com desconto e bônus\""
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-									className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-									children: "\"Sim! Quero preparar meu filho para o futuro\""
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-									className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-									children: "\"Quero começar agora\""
-								})
-							]
-						}) })]
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-						className: "bg-slate-800 border-slate-700",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardHeader, {
-							className: "pb-3",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center gap-2 mb-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageSquare, { className: "w-5 h-5 text-blue-400" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
-									className: "text-lg text-white",
-									children: "Hooks para Meta Ads"
-								})]
-							})
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardContent, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "space-y-4 text-sm",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "block text-brand-gold text-xs font-bold mb-1",
-									children: "Gancho Principal:"
-								}), "\"O mundo mudou. Seu filho está aprendendo a usar a tecnologia ou apenas sendo consumido por ela?\""]
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "bg-slate-700/50 p-3 rounded-lg border border-slate-600/50",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "block text-blue-400 text-xs font-bold mb-1",
-									children: "Promessa Tráfego Frio:"
-								}), "\"Dê ao seu filho a vantagem competitiva que as escolas tradicionais ainda não oferecem através da Inteligência Artificial Criativa.\""]
-							})]
-						}) })]
-					})
-				]
-			})]
-		})
-	});
-};
 var Index = () => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "overflow-x-hidden",
@@ -27156,8 +27014,7 @@ var Index = () => {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Bonuses, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(GuaranteeSection, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FAQ, {}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MarketingAssets, {})
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {})
 		]
 	});
 };
@@ -27758,9 +27615,9 @@ function createSidecarMedium(options$1) {
 var SideCar = function(_a) {
 	var sideCar = _a.sideCar, rest = __rest(_a, ["sideCar"]);
 	if (!sideCar) throw new Error("Sidecar: please provide `sideCar` property to import the right car");
-	var Target$1 = sideCar.read();
-	if (!Target$1) throw new Error("Sidecar medium not found");
-	return import_react.createElement(Target$1, __assign({}, rest));
+	var Target = sideCar.read();
+	if (!Target) throw new Error("Sidecar medium not found");
+	return import_react.createElement(Target, __assign({}, rest));
 };
 SideCar.isSideCarExport = true;
 function exportSidecar(medium, exported) {
@@ -28945,4 +28802,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-C4Fvdoj-.js.map
+//# sourceMappingURL=index-DqIoNuzd.js.map

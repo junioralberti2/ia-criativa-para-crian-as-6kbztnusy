@@ -11,7 +11,6 @@ import { Bonuses } from '@/components/sections/Bonuses'
 import { GuaranteeSection } from '@/components/sections/GuaranteeSection'
 import { FAQ } from '@/components/sections/FAQ'
 import { Pricing } from '@/components/sections/Pricing'
-import { MarketingAssets } from '@/components/sections/MarketingAssets'
 
 const Index = () => {
   return (
@@ -29,7 +28,6 @@ const Index = () => {
       <GuaranteeSection />
       <FAQ />
       <Pricing />
-      <MarketingAssets />
     </div>
   )
 }
