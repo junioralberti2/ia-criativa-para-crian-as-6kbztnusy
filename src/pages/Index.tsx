@@ -10,7 +10,9 @@ import { Includes } from '@/components/sections/Includes'
 import { Bonuses } from '@/components/sections/Bonuses'
 import { GuaranteeSection } from '@/components/sections/GuaranteeSection'
 import { FAQ } from '@/components/sections/FAQ'
+import { PriceJustification } from '@/components/sections/PriceJustification'
 import { Pricing } from '@/components/sections/Pricing'
+import { EmotionalClosing } from '@/components/sections/EmotionalClosing'
 
 const Index = () => {
   return (
@@ -27,7 +29,9 @@ const Index = () => {
       <Bonuses />
       <GuaranteeSection />
       <FAQ />
+      <PriceJustification />
       <Pricing />
+      <EmotionalClosing />
     </div>
   )
 }

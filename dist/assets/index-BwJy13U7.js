@@ -18980,6 +18980,28 @@ var Brain = createLucideIcon("brain", [
 		key: "q97ue3"
 	}]
 ]);
+var CircleAlert = createLucideIcon("circle-alert", [
+	["circle", {
+		cx: "12",
+		cy: "12",
+		r: "10",
+		key: "1mglay"
+	}],
+	["line", {
+		x1: "12",
+		x2: "12",
+		y1: "8",
+		y2: "12",
+		key: "1pkeuh"
+	}],
+	["line", {
+		x1: "12",
+		x2: "12.01",
+		y1: "16",
+		y2: "16",
+		key: "4dfq90"
+	}]
+]);
 var CircleCheckBig = createLucideIcon("circle-check-big", [["path", {
 	d: "M21.801 10A10 10 0 1 1 17 3.335",
 	key: "yps3ct"
@@ -18995,15 +19017,6 @@ var CircleCheck = createLucideIcon("circle-check", [["circle", {
 }], ["path", {
 	d: "m9 12 2 2 4-4",
 	key: "dzmm74"
-}]]);
-var CirclePlay = createLucideIcon("circle-play", [["path", {
-	d: "M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z",
-	key: "kmsa83"
-}], ["circle", {
-	cx: "12",
-	cy: "12",
-	r: "10",
-	key: "1mglay"
 }]]);
 var CircleQuestionMark = createLucideIcon("circle-question-mark", [
 	["circle", {
@@ -19046,46 +19059,10 @@ var Clock = createLucideIcon("clock", [["path", {
 	r: "10",
 	key: "1mglay"
 }]]);
-var Download = createLucideIcon("download", [
-	["path", {
-		d: "M12 15V3",
-		key: "m9g1x1"
-	}],
-	["path", {
-		d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4",
-		key: "ih7n3h"
-	}],
-	["path", {
-		d: "m7 10 5 5 5-5",
-		key: "brsn70"
-	}]
-]);
 var Facebook = createLucideIcon("facebook", [["path", {
 	d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",
 	key: "1jg4f8"
 }]]);
-var FileText = createLucideIcon("file-text", [
-	["path", {
-		d: "M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z",
-		key: "1oefj6"
-	}],
-	["path", {
-		d: "M14 2v5a1 1 0 0 0 1 1h5",
-		key: "wfsgrz"
-	}],
-	["path", {
-		d: "M10 9H8",
-		key: "b1mrlr"
-	}],
-	["path", {
-		d: "M16 13H8",
-		key: "t4e002"
-	}],
-	["path", {
-		d: "M16 17H8",
-		key: "z1uh3a"
-	}]
-]);
 var Instagram = createLucideIcon("instagram", [
 	["rect", {
 		width: "20",
@@ -19249,6 +19226,33 @@ var Sparkles = createLucideIcon("sparkles", [
 var Star = createLucideIcon("star", [["path", {
 	d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
 	key: "r04s7s"
+}]]);
+var Target = createLucideIcon("target", [
+	["circle", {
+		cx: "12",
+		cy: "12",
+		r: "10",
+		key: "1mglay"
+	}],
+	["circle", {
+		cx: "12",
+		cy: "12",
+		r: "6",
+		key: "1vlfrh"
+	}],
+	["circle", {
+		cx: "12",
+		cy: "12",
+		r: "2",
+		key: "1c9p78"
+	}]
+]);
+var TrendingUp = createLucideIcon("trending-up", [["path", {
+	d: "M16 7h6v6",
+	key: "box55l"
+}], ["path", {
+	d: "m22 7-8.5 8.5-5-5L2 17",
+	key: "1t1m79"
 }]]);
 var Users = createLucideIcon("users", [
 	["path", {
@@ -24187,29 +24191,28 @@ const Hero = () => {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
 						className: "text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white leading-tight animate-fade-in text-shadow",
 						children: [
-							"Transforme o tempo de tela do seu filho em uma",
+							"Seu filho pronto para a era da Inteligência Artificial —",
 							" ",
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 								className: "text-brand-gold",
-								children: "vantagem competitiva"
-							}),
-							" para o futuro."
+								children: "mesmo que hoje ele só use o tablet para vídeos."
+							})
 						]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0 animate-fade-in-up delay-100",
-						children: "O curso prático de IA que desperta a criatividade e prepara crianças a partir de 7 anos para a nova alfabetização digital."
+						children: "Transforme o tempo de tela em aprendizado criativo e prepare crianças a partir de 7 anos para dominar a tecnologia que vai definir o futuro."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "flex flex-col gap-3 justify-center md:justify-start pt-4 animate-fade-in-up delay-200",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 							onClick: handlePurchase,
 							size: "lg",
 							className: "w-full sm:w-auto h-16 rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base md:text-lg px-8 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0",
-							children: ["Quero garantir a vaga do meu filho", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-6 h-6 ml-2" })]
+							children: "👉 Quero preparar meu filho para o futuro agora"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex items-center justify-center md:justify-start gap-2 text-sm text-slate-400 font-medium",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "w-5 h-5 text-green-500" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Acesso imediato e 7 dias de garantia incondicional." })]
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "w-5 h-5 text-green-500" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Acesso imediato • 7 dias de garantia incondicional" })]
 						})]
 					})
 				]
@@ -26449,14 +26452,14 @@ var testimonials = [
 	{
 		name: "Ana Paula Silva",
 		role: "Mãe do Pedro (9 anos)",
-		text: "Eu estava desesperada com o Pedro só no Minecraft. Depois do curso, ele criou um gibi da nossa família usando IA e imprimiu pra gente. Foi emocionante!",
+		text: "Em 5 dias o Pedro criou um gibi de 12 páginas com personagens próprios usando IA. Ele nunca tinha demonstrado tanto interesse por aprender tecnologia.",
 		rating: 5,
 		avatar: "https://img.usecurling.com/ppl/thumbnail?gender=female&seed=10"
 	},
 	{
 		name: "Carlos Henrique",
 		role: "Pai da Sofia (13 anos)",
-		text: "A Sofia sempre gostou de desenhar, mas estava frustrada. Com as IAs ensinadas, ela elevou o nível e passa o tempo livre montando os próprios projetos.",
+		text: "Minha filha passou de horas rolando vídeos para criar artes digitais que ela mesma imprimiu para decorar o quarto.",
 		rating: 5,
 		avatar: "https://img.usecurling.com/ppl/thumbnail?gender=male&seed=12"
 	},
@@ -26584,13 +26587,22 @@ const Author = () => {
 		})
 	});
 };
+var includesList = [
+	"+20 aulas práticas passo a passo",
+	"Metodologia validada para crianças de 7 a 14 anos",
+	"Projetos reais desde a primeira semana",
+	"Atualizações futuras sem custo adicional",
+	"Certificado de Criador com IA",
+	"Materiais para download",
+	"Acesso imediato e vitalício"
+];
 const Includes = () => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		className: "py-20 bg-brand-light border-y border-slate-200",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "text-center mb-16",
+				className: "text-center mb-12",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 					className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4",
 					children: "O que está incluso na inscrição?"
@@ -26598,90 +26610,18 @@ const Includes = () => {
 					className: "text-lg text-slate-600 max-w-2xl mx-auto",
 					children: "Tudo o que seu filho precisa para ter sucesso na jornada criativa."
 				})]
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "border-none shadow-sm hover:shadow-md transition-shadow",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							className: "p-8 text-center flex flex-col items-center",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 text-blue-600",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CirclePlay, { className: "w-8 h-8" })
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-lg font-bold text-brand-dark mb-2",
-									children: "Aulas em Vídeo"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-600 text-sm",
-									children: "Acesso a todos os módulos gravados em alta qualidade, passo a passo."
-								})
-							]
-						})
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "border-none shadow-sm hover:shadow-md transition-shadow",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							className: "p-8 text-center flex flex-col items-center",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 text-green-600",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FileText, { className: "w-8 h-8" })
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-lg font-bold text-brand-dark mb-2",
-									children: "Exercícios Práticos"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-600 text-sm",
-									children: "Desafios visuais e de prompts ao final de cada etapa para fixar o aprendizado."
-								})
-							]
-						})
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "border-none shadow-sm hover:shadow-md transition-shadow",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							className: "p-8 text-center flex flex-col items-center",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 text-purple-600",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Download, { className: "w-8 h-8" })
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-lg font-bold text-brand-dark mb-2",
-									children: "Material Digital"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-600 text-sm",
-									children: "Checklists, resumos de comandos e materiais de apoio para baixar."
-								})
-							]
-						})
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "border-none shadow-sm hover:shadow-md transition-shadow",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							className: "p-8 text-center flex flex-col items-center",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-yellow-600",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Award, { className: "w-8 h-8" })
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-lg font-bold text-brand-dark mb-2",
-									children: "Certificado"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-600 text-sm",
-									children: "Certificado de conclusão de \"Criador com Inteligência Artificial\"."
-								})
-							]
-						})
-					})
-				]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+				className: "grid md:grid-cols-2 gap-4 max-w-4xl mx-auto",
+				children: includesList.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+					className: "flex items-center gap-4 bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow hover:border-brand-indigo/30",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "bg-green-100 p-2 rounded-full shrink-0",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, { className: "w-6 h-6 text-green-600" })
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "text-brand-dark font-medium md:text-lg",
+						children: item
+					})]
+				}, i))
 			})]
 		})
 	});
@@ -26911,6 +26851,101 @@ const FAQ = () => {
 		})
 	});
 };
+const PriceJustification = () => {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		className: "py-20 bg-white border-t border-slate-100",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "container mx-auto px-4",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "max-w-3xl mx-auto text-center mb-12",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-6",
+						children: "Por que estamos oferecendo por apenas R$ 27?"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-lg text-slate-600 leading-relaxed mb-4",
+						children: "Este é um projeto de expansão educacional. Estamos abrindo novas turmas para formar os primeiros alunos da metodologia IA Criativa no Brasil."
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-10",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
+							className: "border-none shadow-md bg-brand-light",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
+								className: "p-6 flex flex-col items-center text-center",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Target, { className: "w-6 h-6" })
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										className: "font-bold text-brand-dark mb-2",
+										children: "Nosso Objetivo"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-slate-600 text-sm",
+										children: "Formar casos reais, coletar resultados e ampliar o impacto do uso da IA na educação infantil."
+									})
+								]
+							})
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
+							className: "border-none shadow-md bg-brand-light",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
+								className: "p-6 flex flex-col items-center text-center",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4 text-green-600",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Users, { className: "w-6 h-6" })
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										className: "font-bold text-brand-dark mb-2",
+										children: "Primeiros Alunos"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-slate-600 text-sm",
+										children: "Queremos uma turma pioneira engajada para validar e aprimorar a metodologia de forma contínua."
+									})
+								]
+							})
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
+							className: "border-none shadow-md bg-brand-light",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
+								className: "p-6 flex flex-col items-center text-center",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4 text-amber-600",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TrendingUp, { className: "w-6 h-6" })
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										className: "font-bold text-brand-dark mb-2",
+										children: "Valor Simbólico"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-slate-600 text-sm",
+										children: "Por isso, temporariamente, o acesso está quase de graça para remover qualquer barreira financeira."
+									})
+								]
+							})
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "max-w-2xl mx-auto bg-amber-50 border border-amber-200 rounded-2xl p-6 flex items-center gap-4 shadow-sm",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleAlert, { className: "w-8 h-8 text-amber-500 shrink-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+						className: "text-amber-800 font-medium text-sm md:text-base",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
+							className: "block mb-1",
+							children: "Aviso Importante:"
+						}), "Em breve, o valor volta para R$ 497. Aproveite essa janela de oportunidade para garantir o acesso vitalício do seu filho com desconto máximo."]
+					})]
+				})
+			]
+		})
+	});
+};
 const Pricing = () => {
 	const handlePurchase = () => {
 		trackEvent("InitiateCheckout");
@@ -26939,7 +26974,7 @@ const Pricing = () => {
 							children: "O passaporte do seu filho para a nova alfabetização digital."
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex flex-col items-center justify-center gap-2 mb-10",
+							className: "flex flex-col items-center justify-center gap-2 mb-8",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 								className: "text-slate-400 text-xl line-through",
 								children: "De R$ 497,00"
@@ -26961,10 +26996,20 @@ const Pricing = () => {
 								]
 							})]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-left shadow-sm",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "font-bold text-amber-800 text-sm md:text-base mb-1",
+								children: "⚠️ Atenção: condição especial por tempo limitado"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-amber-700 text-sm leading-relaxed",
+								children: "As vagas com acesso aos 3 bônus gratuitos estão disponíveis apenas para os próximos alunos inscritos. Assim que atingirmos o limite da turma atual, o valor volta ao normal e os bônus deixam de ser oferecidos gratuitamente. 👉 Não deixe para depois."
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 							onClick: handlePurchase,
 							className: "w-full h-16 text-lg md:text-xl font-bold rounded-full bg-green-500 hover:bg-green-600 text-white shadow-xl shadow-green-500/30 mb-8 animate-pulse-slow border-0",
-							children: ["Quero inscrever meu filho agora", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-6 h-6 ml-2" })]
+							children: "Quero inscrever meu filho agora"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "grid grid-cols-1 md:grid-cols-3 gap-4 border-t border-slate-100 pt-8",
@@ -26998,6 +27043,66 @@ const Pricing = () => {
 		})
 	});
 };
+const EmotionalClosing = () => {
+	const handlePurchase = () => {
+		trackEvent("InitiateCheckout");
+		window.location.href = "https://pay.hotmart.com/E103583426A";
+	};
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		className: "py-24 bg-gradient-to-br from-brand-indigo to-brand-dark text-white text-center relative overflow-hidden",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 right-0 w-[500px] h-[500px] bg-brand-purple/20 blur-[120px] rounded-full mix-blend-screen" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-gold/10 blur-[120px] rounded-full mix-blend-screen" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "container mx-auto px-4 relative z-10",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "max-w-3xl mx-auto space-y-8",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+							className: "text-3xl md:text-5xl font-bold font-heading leading-tight",
+							children: [
+								"Daqui a alguns anos, haverá",
+								" ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-brand-gold",
+									children: "dois tipos de jovens:"
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "space-y-4 text-xl md:text-2xl font-medium text-slate-200",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Os que aprenderam a consumir tecnologia." }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "E os que aprenderam a dominá-la." })]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-16 h-1 bg-brand-gold/30 mx-auto rounded-full my-8" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "space-y-4 text-lg md:text-xl text-slate-300 mb-10",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "A decisão começa agora." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Seu filho pode continuar apenas assistindo…" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "font-bold text-white text-2xl",
+									children: "Ou pode começar a criar."
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-col items-center gap-4 pt-4",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								onClick: handlePurchase,
+								size: "lg",
+								className: "w-full sm:w-auto h-16 rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base md:text-xl px-10 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0",
+								children: "👉 Quero garantir a vaga do meu filho"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center justify-center gap-2 text-sm text-slate-400 font-medium",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "w-5 h-5 text-green-400" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Compra 100% segura • Acesso imediato • Garantia de 7 dias" })]
+							})]
+						})
+					]
+				})
+			})
+		]
+	});
+};
 var Index = () => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "overflow-x-hidden",
@@ -27014,7 +27119,9 @@ var Index = () => {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Bonuses, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(GuaranteeSection, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FAQ, {}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {})
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PriceJustification, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(EmotionalClosing, {})
 		]
 	});
 };
@@ -27615,9 +27722,9 @@ function createSidecarMedium(options$1) {
 var SideCar = function(_a) {
 	var sideCar = _a.sideCar, rest = __rest(_a, ["sideCar"]);
 	if (!sideCar) throw new Error("Sidecar: please provide `sideCar` property to import the right car");
-	var Target = sideCar.read();
-	if (!Target) throw new Error("Sidecar medium not found");
-	return import_react.createElement(Target, __assign({}, rest));
+	var Target$1 = sideCar.read();
+	if (!Target$1) throw new Error("Sidecar medium not found");
+	return import_react.createElement(Target$1, __assign({}, rest));
 };
 SideCar.isSideCarExport = true;
 function exportSidecar(medium, exported) {
@@ -28802,4 +28909,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-BNZu5sda.js.map
+//# sourceMappingURL=index-BwJy13U7.js.map

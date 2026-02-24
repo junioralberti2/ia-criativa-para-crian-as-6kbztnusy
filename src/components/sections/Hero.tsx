@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { Rocket, Star, Sparkles, ArrowRight, ShieldCheck } from 'lucide-react'
+import { Rocket, Star, Sparkles, ShieldCheck } from 'lucide-react'
 import { trackEvent } from '@/lib/facebook'
 
 export const Hero = () => {
@@ -40,14 +40,16 @@ export const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white leading-tight animate-fade-in text-shadow">
-            Transforme o tempo de tela do seu filho em uma{' '}
-            <span className="text-brand-gold">vantagem competitiva</span> para o
-            futuro.
+            Seu filho pronto para a era da Inteligência Artificial —{' '}
+            <span className="text-brand-gold">
+              mesmo que hoje ele só use o tablet para vídeos.
+            </span>
           </h1>
 
           <p className="text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0 animate-fade-in-up delay-100">
-            O curso prático de IA que desperta a criatividade e prepara crianças
-            a partir de 7 anos para a nova alfabetização digital.
+            Transforme o tempo de tela em aprendizado criativo e prepare
+            crianças a partir de 7 anos para dominar a tecnologia que vai
+            definir o futuro.
           </p>
 
           <div className="flex flex-col gap-3 justify-center md:justify-start pt-4 animate-fade-in-up delay-200">
@@ -56,13 +58,12 @@ export const Hero = () => {
               size="lg"
               className="w-full sm:w-auto h-16 rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base md:text-lg px-8 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0"
             >
-              Quero garantir a vaga do meu filho
-              <ArrowRight className="w-6 h-6 ml-2" />
+              👉 Quero preparar meu filho para o futuro agora
             </Button>
 
             <div className="flex items-center justify-center md:justify-start gap-2 text-sm text-slate-400 font-medium">
               <ShieldCheck className="w-5 h-5 text-green-500" />
-              <span>Acesso imediato e 7 dias de garantia incondicional.</span>
+              <span>Acesso imediato • 7 dias de garantia incondicional</span>
             </div>
           </div>
         </div>

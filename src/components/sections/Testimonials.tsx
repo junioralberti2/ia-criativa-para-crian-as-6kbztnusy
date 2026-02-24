@@ -13,14 +13,14 @@ const testimonials = [
   {
     name: 'Ana Paula Silva',
     role: 'Mãe do Pedro (9 anos)',
-    text: 'Eu estava desesperada com o Pedro só no Minecraft. Depois do curso, ele criou um gibi da nossa família usando IA e imprimiu pra gente. Foi emocionante!',
+    text: 'Em 5 dias o Pedro criou um gibi de 12 páginas com personagens próprios usando IA. Ele nunca tinha demonstrado tanto interesse por aprender tecnologia.',
     rating: 5,
     avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=female&seed=10',
   },
   {
     name: 'Carlos Henrique',
     role: 'Pai da Sofia (13 anos)',
-    text: 'A Sofia sempre gostou de desenhar, mas estava frustrada. Com as IAs ensinadas, ela elevou o nível e passa o tempo livre montando os próprios projetos.',
+    text: 'Minha filha passou de horas rolando vídeos para criar artes digitais que ela mesma imprimiu para decorar o quarto.',
     rating: 5,
     avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=12',
   },

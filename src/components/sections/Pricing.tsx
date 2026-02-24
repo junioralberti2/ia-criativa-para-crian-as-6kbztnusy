@@ -1,4 +1,4 @@
-import { ShieldCheck, Clock, Award, ArrowRight } from 'lucide-react'
+import { ShieldCheck, Clock, Award } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { trackEvent } from '@/lib/facebook'
 
@@ -24,7 +24,7 @@ export const Pricing = () => {
               O passaporte do seu filho para a nova alfabetização digital.
             </p>
 
-            <div className="flex flex-col items-center justify-center gap-2 mb-10">
+            <div className="flex flex-col items-center justify-center gap-2 mb-8">
               <span className="text-slate-400 text-xl line-through">
                 De R$ 497,00
               </span>
@@ -39,12 +39,23 @@ export const Pricing = () => {
               </div>
             </div>
 
+            <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-left shadow-sm">
+              <p className="font-bold text-amber-800 text-sm md:text-base mb-1">
+                ⚠️ Atenção: condição especial por tempo limitado
+              </p>
+              <p className="text-amber-700 text-sm leading-relaxed">
+                As vagas com acesso aos 3 bônus gratuitos estão disponíveis
+                apenas para os próximos alunos inscritos. Assim que atingirmos o
+                limite da turma atual, o valor volta ao normal e os bônus deixam
+                de ser oferecidos gratuitamente. 👉 Não deixe para depois.
+              </p>
+            </div>
+
             <Button
               onClick={handlePurchase}
               className="w-full h-16 text-lg md:text-xl font-bold rounded-full bg-green-500 hover:bg-green-600 text-white shadow-xl shadow-green-500/30 mb-8 animate-pulse-slow border-0"
             >
               Quero inscrever meu filho agora
-              <ArrowRight className="w-6 h-6 ml-2" />
             </Button>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 border-t border-slate-100 pt-8">
