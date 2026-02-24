@@ -26591,8 +26591,8 @@ const Author = () => {
 	});
 };
 var includesList = [
-	"+20 aulas práticas passo a passo",
-	"Metodologia validada para crianças de 7 a 14 anos",
+	"Mais de 10 aulas práticas passo a passo",
+	"Metodologia validada para crianças a partir de 7 anos",
 	"Projetos reais desde a primeira semana",
 	"Atualizações futuras sem custo adicional",
 	"Certificado de Criador com IA",
@@ -28928,4 +28928,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-DJG1gPF8.js.map
+//# sourceMappingURL=index-CziQl18Y.js.map

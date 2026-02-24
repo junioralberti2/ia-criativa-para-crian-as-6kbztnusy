@@ -1,8 +1,8 @@
 import { CheckCircle2 } from 'lucide-react'
 
 const includesList = [
-  '+20 aulas práticas passo a passo',
-  'Metodologia validada para crianças de 7 a 14 anos',
+  'Mais de 10 aulas práticas passo a passo',
+  'Metodologia validada para crianças a partir de 7 anos',
   'Projetos reais desde a primeira semana',
   'Atualizações futuras sem custo adicional',
   'Certificado de Criador com IA',
