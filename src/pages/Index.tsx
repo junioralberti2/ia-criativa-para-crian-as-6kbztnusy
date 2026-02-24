@@ -1,36 +1,35 @@
 import { Hero } from '@/components/sections/Hero'
 import { Problem } from '@/components/sections/Problem'
-import { Future } from '@/components/sections/Future'
+import { Opportunity } from '@/components/sections/Opportunity'
 import { Solution } from '@/components/sections/Solution'
 import { Modules } from '@/components/sections/Modules'
-import { Benefits } from '@/components/sections/Benefits'
-import { Bonuses } from '@/components/sections/Bonuses'
-import { Author } from '@/components/sections/Author'
-import { Pricing } from '@/components/sections/Pricing'
-import { FAQ } from '@/components/sections/FAQ'
+import { Transformation } from '@/components/sections/Transformation'
 import { Testimonials } from '@/components/sections/Testimonials'
-import { PurchaseSection } from '@/components/PurchaseSection'
+import { Author } from '@/components/sections/Author'
+import { Includes } from '@/components/sections/Includes'
+import { Bonuses } from '@/components/sections/Bonuses'
 import { GuaranteeSection } from '@/components/sections/GuaranteeSection'
+import { FAQ } from '@/components/sections/FAQ'
+import { Pricing } from '@/components/sections/Pricing'
+import { MarketingAssets } from '@/components/sections/MarketingAssets'
 
 const Index = () => {
   return (
     <div className="overflow-x-hidden">
       <Hero />
       <Problem />
-      <Future />
-      <PurchaseSection />
+      <Opportunity />
       <Solution />
       <Modules />
-      <Benefits />
-      <Bonuses />
-      <PurchaseSection />
+      <Transformation />
+      <Testimonials />
       <Author />
-      <PurchaseSection />
-      <Pricing />
+      <Includes />
+      <Bonuses />
       <GuaranteeSection />
       <FAQ />
-      <Testimonials />
-      <PurchaseSection />
+      <Pricing />
+      <MarketingAssets />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { Rocket, Star, Sparkles, ArrowRight } from 'lucide-react'
+import { Rocket, Star, Sparkles, ArrowRight, ShieldCheck } from 'lucide-react'
 import { trackEvent } from '@/lib/facebook'
 
 export const Hero = () => {
@@ -35,64 +35,44 @@ export const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-indigo/30 rounded-full border border-brand-indigo/50 animate-fade-in-down">
             <Sparkles className="w-4 h-4 text-brand-gold" />
             <span className="text-brand-gold text-xs md:text-sm font-bold uppercase tracking-wider">
-              O futuro da educação infantil
+              A Revolução na Educação
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white leading-tight animate-fade-in text-shadow">
-            Seu filho vai apenas{' '}
-            <span className="text-brand-indigo bg-white/10 px-2 rounded">
-              passar o tempo
-            </span>{' '}
-            nas telas ou se{' '}
-            <span className="text-brand-gold">preparar para o futuro?</span>
+            Transforme o tempo de tela do seu filho em uma{' '}
+            <span className="text-brand-gold">vantagem competitiva</span> para o
+            futuro.
           </h1>
 
           <p className="text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0 animate-fade-in-up delay-100">
-            Transforme o vício em telas em uma superpotência criativa. Ensine
-            seu filho a criar desenhos, histórias, músicas e jogos usando
-            Inteligência Artificial.
+            O curso prático de IA que desperta a criatividade e prepara crianças
+            de 7 a 14 anos para a nova alfabetização digital.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4 animate-fade-in-up delay-200">
+          <div className="flex flex-col gap-3 justify-center md:justify-start pt-4 animate-fade-in-up delay-200">
             <Button
               onClick={handlePurchase}
               size="lg"
-              className="rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base px-8 py-6 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0"
+              className="w-full sm:w-auto h-16 rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-base md:text-lg px-8 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0"
             >
-              Quero garantir por R$ 27
-              <ArrowRight className="w-5 h-5 ml-2" />
+              Quero garantir a vaga do meu filho
+              <ArrowRight className="w-6 h-6 ml-2" />
             </Button>
-          </div>
 
-          <div className="flex items-center justify-center md:justify-start gap-4 pt-4 text-sm text-slate-400">
-            <div className="flex -space-x-2">
-              <img
-                src="https://img.usecurling.com/ppl/thumbnail?gender=male&seed=1"
-                className="w-8 h-8 rounded-full border-2 border-slate-900"
-                alt="Student"
-              />
-              <img
-                src="https://img.usecurling.com/ppl/thumbnail?gender=female&seed=2"
-                className="w-8 h-8 rounded-full border-2 border-slate-900"
-                alt="Student"
-              />
-              <img
-                src="https://img.usecurling.com/ppl/thumbnail?gender=male&seed=3"
-                className="w-8 h-8 rounded-full border-2 border-slate-900"
-                alt="Student"
-              />
+            <div className="flex items-center justify-center md:justify-start gap-2 text-sm text-slate-400 font-medium">
+              <ShieldCheck className="w-5 h-5 text-green-500" />
+              <span>Acesso imediato e 7 dias de garantia incondicional.</span>
             </div>
-            <p>Mais de 5.000 alunos transformados</p>
           </div>
         </div>
 
         <div className="relative animate-float hidden md:block">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" />
           <img
-            src="https://i.ibb.co/LzdymdpG/Screenshot-3.png"
+            src="https://img.usecurling.com/p/800/800?q=child%20using%20tablet%20learning%20future%20technology&color=blue&dpr=2"
             alt="Criança aprendendo com IA"
-            className="relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10"
+            className="relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10 object-cover"
           />
 
           {/* Floating Icons */}

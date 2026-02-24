@@ -1,4 +1,4 @@
-import { Ban, Smartphone, Tablet, AlertTriangle } from 'lucide-react'
+import { Ban, Smartphone, Brain } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 
 export const Problem = () => {
@@ -6,12 +6,16 @@ export const Problem = () => {
     <section id="problem" className="py-20 bg-brand-light">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
+          <span className="text-red-500 font-bold tracking-wider uppercase text-sm mb-2 block">
+            A Realidade Atual
+          </span>
           <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">
-            A Batalha Diária das Telas
+            Em um mundo dominado pela IA, seu filho será passageiro ou piloto?
           </h2>
           <p className="text-lg text-slate-600">
-            Você sente que está perdendo seu filho para o tablet e o celular? A
-            proibição gera conflitos e não resolve o problema real.
+            A maioria das crianças está usando a tecnologia apenas para
+            entretenimento raso. O excesso de consumo passivo está limitando o
+            potencial delas.
           </p>
         </div>
 
@@ -19,14 +23,14 @@ export const Problem = () => {
           <Card className="border-none shadow-elevation hover:-translate-y-1 transition-transform duration-300">
             <CardContent className="p-8 text-center flex flex-col items-center">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
-                <Ban className="w-8 h-8 text-red-500" />
+                <Smartphone className="w-8 h-8 text-red-500" />
               </div>
               <h3 className="text-xl font-bold text-brand-dark mb-3">
                 Consumo Passivo
               </h3>
               <p className="text-slate-600">
-                Horas assistindo vídeos curtos que viciam o cérebro e não
-                ensinam absolutamente nada de útil.
+                Horas deslizando o dedo na tela consumindo vídeos curtos que
+                viciam e não agregam habilidades reais.
               </p>
             </CardContent>
           </Card>
@@ -34,14 +38,14 @@ export const Problem = () => {
           <Card className="border-none shadow-elevation hover:-translate-y-1 transition-transform duration-300">
             <CardContent className="p-8 text-center flex flex-col items-center">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
-                <AlertTriangle className="w-8 h-8 text-orange-500" />
+                <Brain className="w-8 h-8 text-orange-500" />
               </div>
               <h3 className="text-xl font-bold text-brand-dark mb-3">
-                Isolamento
+                Estagnação Criativa
               </h3>
               <p className="text-slate-600">
-                A criança prefere o mundo virtual ao real, perdendo o interesse
-                em interagir com a família e amigos.
+                O cérebro se acostuma a receber tudo pronto, diminuindo a
+                capacidade de imaginar e resolver problemas.
               </p>
             </CardContent>
           </Card>
@@ -49,14 +53,14 @@ export const Problem = () => {
           <Card className="border-none shadow-elevation hover:-translate-y-1 transition-transform duration-300">
             <CardContent className="p-8 text-center flex flex-col items-center">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <Smartphone className="w-8 h-8 text-blue-500" />
+                <Ban className="w-8 h-8 text-blue-500" />
               </div>
               <h3 className="text-xl font-bold text-brand-dark mb-3">
-                Falta de Preparo
+                Risco de Desatualização
               </h3>
               <p className="text-slate-600">
-                Apenas saber "mexer" no celular não garante futuro. O mercado
-                exigirá criatividade aliada à tecnologia.
+                O futuro exigirá domínio da Inteligência Artificial. Quem não
+                souber utilizá-la ficará para trás no mercado.
               </p>
             </CardContent>
           </Card>

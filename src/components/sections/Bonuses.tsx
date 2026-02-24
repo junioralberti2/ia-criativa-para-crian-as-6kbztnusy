@@ -1,59 +1,30 @@
-import {
-  PenTool,
-  Printer,
-  ShoppingBag,
-  Sparkles,
-  BookOpen,
-  Gift,
-} from 'lucide-react'
+import { BookOpen, ShieldCheck, Users } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
 
 const bonuses = [
   {
-    icon: PenTool,
-    title: 'Bônus 1 – Como Criar uma Logomarca com ChatGPT',
+    icon: BookOpen,
+    title: 'Guia para pais acompanharem evolução',
     description:
-      'Um passo a passo simples e divertido para pais e filhos criarem juntos a identidade visual de canais, times ou projetos escolares, usando IA para gerar logos profissionais.',
-    price: 'Valor: R$ 37,00 — Grátis hoje',
+      'Um passo a passo simples para você incentivar e acompanhar as criações do seu filho, mesmo sem entender de tecnologia.',
     color: 'text-blue-500',
     bgColor: 'bg-blue-100',
   },
   {
-    icon: Printer,
-    title: 'Bônus 2 – Como Criar um Panfleto para Impressão',
+    icon: ShieldCheck,
+    title: 'Aula sobre segurança digital',
     description:
-      'Aprenda a diagramar e criar panfletos bonitos e reais para trabalhos escolares, festas ou para ajudar na divulgação de pequenos negócios da família.',
-    price: 'Valor: R$ 27,00 — Grátis hoje',
+      'Módulo especial ensinando as crianças a navegarem com segurança e ética nas ferramentas de Inteligência Artificial.',
     color: 'text-purple-500',
     bgColor: 'bg-purple-100',
   },
   {
-    icon: ShoppingBag,
-    title: 'Bônus 3 – Criação de Descrição e Imagem para Vender Produtos',
+    icon: Users,
+    title: 'Comunidade exclusiva',
     description:
-      'Ensina papais e crianças a criar descrições atrativas e imagens profissionais para vender produtos online (reais ou fictícios) usando Inteligência Artificial.',
-    price: 'Valor: R$ 27,00 — Grátis hoje',
+      'Acesso a um grupo seguro onde os alunos podem compartilhar suas criações e trocar ideias sob total supervisão.',
     color: 'text-green-500',
     bgColor: 'bg-green-100',
-  },
-  {
-    icon: Sparkles,
-    title: 'Bônus 4 – Pack Mestre dos Prompts',
-    description:
-      'Biblioteca com mais de 500 prompts prontos para criar dragões, heróis, cenários de RPG, castelos e muito mais.',
-    price: 'Valor: R$ 37,00 — Grátis hoje',
-    color: 'text-brand-gold',
-    bgColor: 'bg-orange-100',
-  },
-  {
-    icon: BookOpen,
-    title: '🎁 Bônus Extra – Biblioteca Criativa de Prompts',
-    description:
-      'Acesso a comandos simples e eficazes para iniciantes gerarem imagens e vídeos incríveis sem frustração.',
-    price: 'Valor: R$ 17,00 — Grátis hoje',
-    color: 'text-pink-500',
-    bgColor: 'bg-pink-100',
   },
 ]
 
@@ -62,22 +33,16 @@ export const Bonuses = () => {
     <section id="bonuses" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <Badge
-            variant="outline"
-            className="mb-4 py-1 px-4 border-brand-indigo/30 text-brand-indigo font-bold tracking-wider uppercase bg-brand-indigo/5"
-          >
-            Bônus
-          </Badge>
           <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">
-            Presentes Exclusivos
+            Bônus Exclusivos
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            Ao garantir sua vaga hoje, você recebe gratuitamente este pacote de
-            aceleradores para potencializar o aprendizado.
+            Ao se inscrever hoje, você leva gratuitamente esses materiais
+            aceleradores.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
           {bonuses.map((bonus, index) => (
             <Card
               key={index}
@@ -92,56 +57,36 @@ export const Bonuses = () => {
                 >
                   <bonus.icon className={`w-6 h-6 ${bonus.color}`} />
                 </div>
-                <CardTitle className="text-lg font-bold text-brand-dark min-h-[3.5rem] flex items-center">
+                <CardTitle className="text-lg font-bold text-brand-dark leading-tight">
                   {bonus.title}
                 </CardTitle>
               </CardHeader>
-              <CardContent className="flex flex-col h-[180px] justify-between">
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
+              <CardContent>
+                <p className="text-slate-600 text-sm leading-relaxed">
                   {bonus.description}
                 </p>
-                <div className="pt-4 border-t border-slate-100 mt-auto">
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                    <span className="text-sm font-bold text-green-600 bg-green-50 px-2 py-1 rounded border border-green-100 inline-block text-center w-full">
-                      {bonus.price}
-                    </span>
-                  </div>
-                </div>
               </CardContent>
             </Card>
           ))}
+        </div>
 
-          {/* Total Value Summary Card */}
-          <div className="md:col-span-2 lg:col-span-1 flex items-center">
-            <Card className="w-full bg-brand-dark text-white border-none shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold opacity-10 rounded-full translate-x-10 -translate-y-10" />
-              <div className="absolute bottom-0 left-0 w-32 h-32 bg-brand-indigo opacity-20 rounded-full -translate-x-10 translate-y-10" />
-
-              <CardContent className="p-8 flex flex-col items-center justify-center text-center h-full relative z-10">
-                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-6 animate-pulse">
-                  <Gift className="w-8 h-8 text-brand-gold" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 text-slate-200">
-                  Valor Total dos Bônus
-                </h3>
-
-                <div className="flex flex-col items-center justify-center gap-2 mb-6">
-                  <div className="text-2xl font-bold text-red-400 line-through decoration-red-400/50 decoration-2">
-                    R$ 145,00
-                  </div>
-                  <div className="text-5xl font-extrabold text-green-400 uppercase tracking-tight drop-shadow-lg">
-                    DE GRAÇA
-                  </div>
-                </div>
-
-                <p className="text-slate-300 text-sm">
-                  Você leva tudo isso{' '}
-                  <strong className="text-white">sem custo adicional</strong> ao
-                  se inscrever agora.
-                </p>
-              </CardContent>
-            </Card>
+        {/* Total Value Summary Box */}
+        <div className="max-w-2xl mx-auto text-center bg-brand-light p-8 md:p-12 rounded-3xl border border-slate-200 shadow-sm">
+          <h3 className="text-xl font-bold mb-6 text-slate-600 uppercase tracking-widest">
+            Valor Total dos Bônus
+          </h3>
+          <div className="flex flex-col items-center justify-center gap-2 mb-4">
+            <div className="text-3xl md:text-4xl font-bold text-red-500 line-through decoration-red-500/50 decoration-[3px]">
+              R$ 145
+            </div>
+            <div className="text-5xl md:text-7xl font-extrabold text-green-500 uppercase tracking-tight drop-shadow-sm mt-2">
+              GRÁTIS
+            </div>
           </div>
+          <p className="text-slate-600 text-base mt-6">
+            Você não paga absolutamente nada por esses 3 bônus ao garantir a
+            vaga agora.
+          </p>
         </div>
       </div>
     </section>

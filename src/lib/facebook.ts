@@ -54,12 +54,10 @@ export const trackEvent = async (
       ? crypto.randomUUID()
       : 'evt_' + Date.now() + Math.random().toString(36).substring(2, 11)
 
-  // 1. Track Browser Pixel
   if (window.fbq) {
     window.fbq('track', eventName, params, { eventID: eventId })
   }
 
-  // 2. Track Conversion API (Client-side attempt as requested)
   try {
     const eventData = {
       data: [
@@ -71,7 +69,6 @@ export const trackEvent = async (
           event_source_url: window.location.href,
           user_data: {
             client_user_agent: navigator.userAgent,
-            // Additional user data would go here if available (hashed)
           },
           custom_data: params,
         },
@@ -79,7 +76,6 @@ export const trackEvent = async (
       access_token: FB_CAPI_TOKEN,
     }
 
-    // Using keepalive to ensure the request completes even if the page unloads (e.g., clicking a link)
     await fetch(`https://graph.facebook.com/v19.0/${FB_PIXEL_ID}/events`, {
       method: 'POST',
       headers: {
