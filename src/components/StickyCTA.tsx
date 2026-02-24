@@ -35,15 +35,17 @@ export const StickyCTA = () => {
     <div
       className={cn(
         'fixed bottom-4 left-4 right-4 z-50 md:hidden transition-all duration-500 transform',
-        isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0',
+        isVisible ? 'translate-y-0 opacity-100' : 'translate-y-24 opacity-0',
       )}
     >
       <Button
         onClick={handleClick}
-        className="w-full rounded-full bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold uppercase shadow-2xl py-6 text-lg border-2 border-white/20"
+        className="w-full rounded-full bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold uppercase shadow-2xl py-4 h-auto min-h-[56px] text-sm sm:text-base border-2 border-white/20 whitespace-normal"
       >
-        Quero garantir por R$ 27
-        <ArrowRight className="w-5 h-5 ml-2" />
+        <span className="flex items-center justify-center text-center">
+          Quero garantir por R$ 27
+          <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2 shrink-0" />
+        </span>
       </Button>
     </div>
   )
