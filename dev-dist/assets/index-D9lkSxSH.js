@@ -24300,7 +24300,7 @@ const Hero = () => {
 						className: "inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-brand-indigo/30 rounded-full border border-brand-indigo/50 animate-fade-in-down",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-3 h-3 md:w-4 md:h-4 text-brand-gold shrink-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 							className: "text-brand-gold text-[10px] sm:text-xs md:text-sm font-bold uppercase tracking-wider",
-							children: "A Revolução na Educação"
+							children: "Aprende a criar com IA já na primeira aula"
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
@@ -27284,4 +27284,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CGyoJJyu.js.map
+//# sourceMappingURL=index-D9lkSxSH.js.map

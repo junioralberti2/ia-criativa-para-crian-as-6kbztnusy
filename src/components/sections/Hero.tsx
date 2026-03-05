@@ -35,7 +35,7 @@ export const Hero = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-brand-indigo/30 rounded-full border border-brand-indigo/50 animate-fade-in-down">
             <Sparkles className="w-3 h-3 md:w-4 md:h-4 text-brand-gold shrink-0" />
             <span className="text-brand-gold text-[10px] sm:text-xs md:text-sm font-bold uppercase tracking-wider">
-              A Revolução na Educação
+              Aprende a criar com IA já na primeira aula
             </span>
           </div>
 
