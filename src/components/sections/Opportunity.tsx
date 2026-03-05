@@ -16,16 +16,17 @@ export const Opportunity = () => {
           <div className="w-full md:w-1/2 space-y-8">
             <div>
               <span className="text-brand-indigo font-bold tracking-wider uppercase text-sm mb-2 block">
-                A Grande Oportunidade
+                O Ponto de Virada
               </span>
               <h2 className="text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4">
                 A Nova Alfabetização Digital
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                A Inteligência Artificial não é uma ameaça, é uma{' '}
-                <strong>ferramenta de empoderamento</strong>. Assim como
-                aprender a ler e escrever foi essencial no passado, saber
-                interagir com a IA é a habilidade mais importante do presente.
+                A Inteligência Artificial não é uma ameaça ou apenas mais um
+                vício, é uma <strong>ferramenta de empoderamento</strong>. Assim
+                como aprender a ler e escrever foi essencial no passado, saber
+                interagir com a IA é a habilidade mais importante e libertadora
+                do presente.
               </p>
             </div>
 
@@ -41,7 +42,7 @@ export const Opportunity = () => {
                     </h4>
                     <p className="text-sm text-slate-600">
                       A IA permite que a criança dê vida a qualquer ideia que
-                      tenha na mente, sem barreiras técnicas.
+                      tenha na mente, quebrando barreiras técnicas.
                     </p>
                   </div>
                 </CardContent>
@@ -54,11 +55,11 @@ export const Opportunity = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-brand-dark">
-                      Aprendizado Ativo
+                      Aprendizado Ativo e Focado
                     </h4>
                     <p className="text-sm text-slate-600">
-                      Transforma o tempo de tela em uma jornada de descobertas e
-                      criação de projetos reais.
+                      Transforma o tempo de tela em uma jornada de foco
+                      profundo, descobertas e criação de projetos reais.
                     </p>
                   </div>
                 </CardContent>
@@ -75,7 +76,7 @@ export const Opportunity = () => {
                     </h4>
                     <p className="text-sm text-slate-600">
                       Garante que seu filho cresça dominando a tecnologia que
-                      moldará todas as profissões do futuro.
+                      moldará todas as profissões e inovações do futuro.
                     </p>
                   </div>
                 </CardContent>

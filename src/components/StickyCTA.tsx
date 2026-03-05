@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { useToast } from '@/hooks/use-toast'
-import { ArrowRight } from 'lucide-react'
 import { trackEvent } from '@/lib/facebook'
 
 export const StickyCTA = () => {
@@ -40,11 +39,10 @@ export const StickyCTA = () => {
     >
       <Button
         onClick={handleClick}
-        className="w-full rounded-full bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold uppercase shadow-2xl py-4 h-auto min-h-[56px] text-sm sm:text-base border-2 border-white/20 whitespace-normal"
+        className="w-full rounded-full bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold uppercase shadow-2xl py-4 h-auto min-h-[56px] text-sm sm:text-base border-2 border-white/20 whitespace-normal text-center"
       >
-        <span className="flex items-center justify-center text-center">
-          Quero garantir por R$ 27
-          <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2 shrink-0" />
+        <span className="flex items-center justify-center">
+          👉 Quero tirar meu filho do modo zumbi agora
         </span>
       </Button>
     </div>

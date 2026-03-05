@@ -3,15 +3,15 @@ import { Problem } from '@/components/sections/Problem'
 import { Opportunity } from '@/components/sections/Opportunity'
 import { Solution } from '@/components/sections/Solution'
 import { Modules } from '@/components/sections/Modules'
-import { Transformation } from '@/components/sections/Transformation'
-import { Testimonials } from '@/components/sections/Testimonials'
-import { Author } from '@/components/sections/Author'
+import { ParentChild } from '@/components/sections/ParentChild'
+import { Results } from '@/components/sections/Results'
 import { Includes } from '@/components/sections/Includes'
-import { Bonuses } from '@/components/sections/Bonuses'
+import { ProfessionalKit } from '@/components/sections/ProfessionalKit'
 import { GuaranteeSection } from '@/components/sections/GuaranteeSection'
-import { FAQ } from '@/components/sections/FAQ'
 import { PriceJustification } from '@/components/sections/PriceJustification'
 import { Pricing } from '@/components/sections/Pricing'
+import { Author } from '@/components/sections/Author'
+import { FAQ } from '@/components/sections/FAQ'
 import { EmotionalClosing } from '@/components/sections/EmotionalClosing'
 
 const Index = () => {
@@ -22,15 +22,15 @@ const Index = () => {
       <Opportunity />
       <Solution />
       <Modules />
-      <Transformation />
-      <Testimonials />
-      <Author />
+      <ParentChild />
+      <Results />
       <Includes />
-      <Bonuses />
+      <ProfessionalKit />
       <GuaranteeSection />
-      <FAQ />
       <PriceJustification />
       <Pricing />
+      <Author />
+      <FAQ />
       <EmotionalClosing />
     </div>
   )

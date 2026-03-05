@@ -24,17 +24,17 @@ export const EmotionalClosing = () => {
           </h2>
 
           <div className="space-y-3 md:space-y-4 text-lg sm:text-xl md:text-2xl font-medium text-slate-200 px-2">
-            <p>Os que aprenderam a consumir tecnologia.</p>
-            <p>E os que aprenderam a dominá-la.</p>
+            <p>Os que aprenderam a ser consumidos pela tecnologia.</p>
+            <p>E os que aprenderam a dominá-la como criadores ativos.</p>
           </div>
 
           <div className="w-12 md:w-16 h-1 bg-brand-gold/30 mx-auto rounded-full my-6 md:my-8" />
 
           <div className="space-y-3 md:space-y-4 text-base sm:text-lg md:text-xl text-slate-300 mb-8 md:mb-10 px-2">
             <p>A decisão começa agora.</p>
-            <p>Seu filho pode continuar apenas assistindo…</p>
+            <p>Seu filho pode continuar no modo zumbi…</p>
             <p className="font-bold text-white text-xl md:text-2xl">
-              Ou pode começar a criar.
+              Ou pode começar a construir o próprio futuro.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export const EmotionalClosing = () => {
               size="lg"
               className="w-full sm:w-auto h-auto min-h-[64px] py-4 rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-sm sm:text-base md:text-xl px-4 md:px-10 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0 whitespace-normal text-center leading-tight"
             >
-              👉 Quero garantir a vaga do meu filho
+              👉 Quero tirar meu filho do modo zumbi agora
             </Button>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-xs sm:text-sm text-slate-400 font-medium px-4 text-center">

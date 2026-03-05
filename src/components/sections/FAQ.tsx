@@ -4,11 +4,11 @@ import { HelpCircle } from 'lucide-react'
 const faqItems = [
   {
     question: 'Para qual idade é o curso?',
-    answer: 'Crianças de 7 a 14 anos.',
+    answer: 'Crianças a partir de 7 anos.',
   },
   {
     question: 'Preciso de algum conhecimento prévio em IA?',
-    answer: 'Não, partimos do zero.',
+    answer: 'Não, partimos do zero absoluto.',
   },
   {
     question: 'Como funciona a garantia?',
@@ -16,15 +16,17 @@ const faqItems = [
   },
   {
     question: 'O curso é ao vivo ou gravado?',
-    answer: 'Online e gravado para assistir no seu tempo.',
+    answer: 'Online e gravado para que seu filho assista no próprio tempo.',
   },
   {
     question: 'A criança consegue fazer sozinha?',
-    answer: 'Sim, a linguagem é adaptada para a autonomia deles.',
+    answer:
+      'Sim, a linguagem é adaptada para a autonomia deles, mas incentivamos a participação dos pais.',
   },
   {
     question: 'Quais bônus eu recebo?',
-    answer: 'Guia para pais, Aula de Segurança e Comunidade.',
+    answer:
+      'Você recebe o Kit Profissional com IA (Logos, Sites, Copys), além do material regular.',
   },
 ]
 

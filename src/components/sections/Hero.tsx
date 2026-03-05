@@ -40,16 +40,14 @@ export const Hero = () => {
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white leading-tight animate-fade-in text-shadow break-words">
-            Seu filho pronto para a era da Inteligência Artificial —{' '}
-            <span className="text-brand-gold">
-              mesmo que hoje ele só use o tablet para vídeos.
-            </span>
+            Tire seu filho do <span className="text-red-400">"modo zumbi"</span>{' '}
+            e transforme-o em um criador ativo com Inteligência Artificial.
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0 animate-fade-in-up delay-100">
-            Transforme o tempo de tela em aprendizado criativo e prepare
-            crianças a partir de 7 anos para dominar a tecnologia que vai
-            definir o futuro.
+            Em menos de 1 hora, ele vai parar de apenas rolar o feed e criará
+            seu primeiro projeto incrível. Prepare crianças a partir de 7 anos
+            para o futuro.
           </p>
 
           <div className="flex flex-col gap-3 justify-center md:justify-start pt-4 animate-fade-in-up delay-200">
@@ -58,7 +56,7 @@ export const Hero = () => {
               size="lg"
               className="w-full sm:w-auto h-auto min-h-[64px] py-3 rounded-full bg-brand-gold text-brand-dark hover:bg-brand-gold/90 font-bold text-sm sm:text-base md:text-lg px-4 md:px-8 shadow-xl shadow-brand-gold/20 animate-pulse-slow border-0 whitespace-normal text-center leading-tight"
             >
-              👉 Quero preparar meu filho para o futuro agora
+              👉 Quero tirar meu filho do modo zumbi agora
             </Button>
 
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 text-xs sm:text-sm text-slate-400 font-medium mt-2">
