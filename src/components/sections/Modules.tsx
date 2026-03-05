@@ -1,4 +1,4 @@
-import { BookOpen, Palette, MessageSquare, ShieldCheck } from 'lucide-react'
+import { BookOpen, Palette, MessageSquare, Sparkles } from 'lucide-react'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 
 const modules = [
@@ -21,10 +21,10 @@ const modules = [
       'Dominar a habilidade do futuro: a arte de "conversar" com a máquina dando os comandos certos para extrair o melhor resultado.',
   },
   {
-    icon: ShieldCheck,
-    title: 'Segurança básica',
+    icon: Sparkles,
+    title: 'Preparando para o Futuro',
     description:
-      'Princípios fundamentais de ética, como identificar fake news e manter-se protegido no ambiente digital.',
+      'Ele irá aprender a criar, imagens realistas, imagens para colorir, músicas, vídeos, e-books e muito mais.',
   },
 ]
 

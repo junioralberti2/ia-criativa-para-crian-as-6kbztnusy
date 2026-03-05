@@ -24682,9 +24682,9 @@ var modules = [
 		description: "Dominar a habilidade do futuro: a arte de \"conversar\" com a máquina dando os comandos certos para extrair o melhor resultado."
 	},
 	{
-		icon: ShieldCheck,
-		title: "Segurança básica",
-		description: "Princípios fundamentais de ética, como identificar fake news e manter-se protegido no ambiente digital."
+		icon: Sparkles,
+		title: "Preparando para o Futuro",
+		description: "Ele irá aprender a criar, imagens realistas, imagens para colorir, músicas, vídeos, e-books e muito mais."
 	}
 ];
 const Modules = () => {
@@ -27284,4 +27284,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-Dz2Q51Xq.js.map
+//# sourceMappingURL=index-CGyoJJyu.js.map
