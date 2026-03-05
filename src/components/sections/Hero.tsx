@@ -71,7 +71,7 @@ export const Hero = () => {
         <div className="relative animate-float mt-8 md:mt-0 w-full max-w-[280px] sm:max-w-md mx-auto md:max-w-none">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" />
           <img
-            src="https://i.ibb.co/HTCC4MyQ/Chat-GPT-Image-24-de-fev-de-2026-16-16-51.png"
+            src="https://i.ibb.co/nXjdDcf/Whats-App-Image-2026-03-05-at-10-18-07.jpg"
             alt="Criança aprendendo com IA"
             className="relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10 object-cover"
           />

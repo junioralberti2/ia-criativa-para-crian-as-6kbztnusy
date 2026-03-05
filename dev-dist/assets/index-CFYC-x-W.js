@@ -24288,7 +24288,7 @@ const Hero = () => {
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-purple/20 blur-[100px] rounded-full" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://i.ibb.co/HTCC4MyQ/Chat-GPT-Image-24-de-fev-de-2026-16-16-51.png",
+						src: "https://i.ibb.co/nXjdDcf/Whats-App-Image-2026-03-05-at-10-18-07.jpg",
 						alt: "Criança aprendendo com IA",
 						className: "relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl border-4 border-white/10 object-cover"
 					}),
@@ -24344,27 +24344,37 @@ CardFooter.displayName = "CardFooter";
 const Problem = () => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		id: "problem",
-		className: "py-20 bg-brand-light",
+		className: "py-20 bg-brand-light overflow-hidden",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "text-center max-w-3xl mx-auto mb-16",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-						className: "text-red-500 font-bold tracking-wider uppercase text-sm mb-2 block",
-						children: "A Realidade Atual"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4",
-						children: "Em um mundo dominado pelas telas, seu filho está sendo programado ou aprendendo a programar?"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-lg text-slate-600",
-						children: "A maioria das crianças está usando a tecnologia apenas para entretenimento raso, ativando o perigoso \"modo zumbi\"."
-					})
-				]
+				className: "flex flex-col lg:flex-row items-center gap-12 mb-16 max-w-6xl mx-auto",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "w-full lg:w-1/2 text-center lg:text-left",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "text-red-500 font-bold tracking-wider uppercase text-sm mb-2 block",
+							children: "A Realidade Atual"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4",
+							children: "Em um mundo dominado pelas telas, seu filho está sendo programado ou aprendendo a programar?"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-lg text-slate-600",
+							children: "A maioria das crianças está usando a tecnologia apenas para entretenimento raso, ativando o perigoso \"modo zumbi\"."
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "w-full lg:w-1/2 relative",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-red-500/10 blur-[80px] rounded-full pointer-events-none" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+						src: "https://i.ibb.co/HTCC4MyQ/Chat-GPT-Image-24-de-fev-de-2026-16-16-51.png",
+						alt: "Criança usando o celular no modo zumbi",
+						className: "relative z-10 rounded-3xl shadow-xl w-full max-w-md mx-auto lg:mx-0 lg:ml-auto h-auto object-cover border-4 border-white"
+					})]
+				})]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid md:grid-cols-3 gap-8",
+				className: "grid md:grid-cols-3 gap-8 max-w-6xl mx-auto",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
 						className: "border-none shadow-elevation hover:-translate-y-1 transition-transform duration-300",
@@ -27135,4 +27145,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-7_FUWjoF.js.map
+//# sourceMappingURL=index-CFYC-x-W.js.map
